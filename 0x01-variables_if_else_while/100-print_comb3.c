@@ -13,7 +13,7 @@ int main(void)
     {
         for (ch = 48; ch < 57; ch++)
         {
-            putchar(chr)
+            putchar(chr);
             putchar(ch);
             putchar(',');
         }

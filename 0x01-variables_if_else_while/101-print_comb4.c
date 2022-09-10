@@ -16,9 +16,9 @@ int main(void)
         {
             for (chrr = 48; chrr < 57; chrr++)
             {
-                putchar(chr)
+                putchar(chr);
                 putchar(ch);
-                putchar(chrr)
+                putchar(chrr);
                 putchar(',');
             }
     }
