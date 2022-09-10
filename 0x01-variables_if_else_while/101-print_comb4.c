@@ -16,10 +16,13 @@ int main(void)
         {
             for (chrr = 48; chrr < 57; chrr++)
             {
+                if (ch != chr && chrr != chr )
+                {
                 putchar(chr);
                 putchar(ch);
                 putchar(chrr);
                 putchar(',');
+                putchar(32);
             }
     }
     putchar('\n');
