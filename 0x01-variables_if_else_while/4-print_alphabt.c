@@ -11,11 +11,10 @@ int main(void)
 
    for(ch = 97 ; ch <= 122 ; ch++)
    {
-      if (ch != 65 && ch != 71 )
+      if (ch != 101 && ch != 112 )
       {
         putchar(ch);
-      }
-      
+      } 
    }
    putchar('\n');
    return(0);
