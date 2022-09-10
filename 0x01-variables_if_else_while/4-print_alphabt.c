@@ -7,15 +7,15 @@
 
 int main(void)
 {
-   char ch;
+char ch;
 
-   for (ch = 97 ; ch <= 122 ; ch++)
-   {
-      if (ch != 101 && ch != 113 )
-      {
-        putchar(ch);
-      }
-   }
-   putchar('\n');
-   return(0);
+for (ch = 97 ; ch <= 122 ; ch++)
+{
+if (ch != 101 && ch != 113 )
+{
+putchar(ch);
+}
+}
+putchar('\n');
+return(0);
 }
