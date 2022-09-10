@@ -23,6 +23,7 @@ int main(void)
                 putchar(chrr);
                 putchar(',');
                 putchar(32);
+                }
             }
     }
     putchar('\n');
