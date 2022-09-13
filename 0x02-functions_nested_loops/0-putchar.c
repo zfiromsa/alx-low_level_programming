@@ -1,14 +1,17 @@
-#include <stdio.h>
 #include <main.h>
-
+/**
+ * main - display <putchar> followed by new line
+ * Return: Always 0
+ */
+ 
 int main()
 {
-    char ch[]={'_','p','u','t','c','h','a','r','\n'};
-    int i=0;
-    while(i<10)
-    {
-        putchar(ch[i]);
-        i++;
-    }
-    return (0);
+char ch[]={'_','p','u','t','c','h','a','r','\n'};
+int i=0;
+while(i<10)
+{
+putchar(ch[i]);
+i++;
+}
+return (0);
 }
