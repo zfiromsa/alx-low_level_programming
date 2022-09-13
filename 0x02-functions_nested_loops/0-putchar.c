@@ -2,11 +2,12 @@
 
 int main ()
 {
-    char ch[]={_,p,u,t,c,h,a,r}
+    char ch[]={'_','p','u','t','c','h','a','r','\n'}
     int i;
-    while(i<9)
+    while(i<10)
     {
         putchar(ch[i]);
+        i++;
     }
     return (0);
 }
