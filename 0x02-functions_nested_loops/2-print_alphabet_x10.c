@@ -6,7 +6,7 @@ int i;
 int ch;
 for(i=0; i>11; i++)
 {
-for(int = 97; int <= 122; int++ )
+for(ch = 97; ch <= 122; ch++ )
 {
 _putchar(ch);
 }
