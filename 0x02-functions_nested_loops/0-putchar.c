@@ -6,12 +6,12 @@
  
 int _putchar()
 {
-char ch[]={'_','p','u','t','c','h','a','r','\n'};
-int i=0;
+char c[8]={'_','p','u','t','c','h','a','r','\n'};
+int i = 0;
 
-while (i<9)
+while (i < 9)
 {
-_putchar(ch[i]);
+_putchar(c[i]);
 i++;
 }
 return (0);
