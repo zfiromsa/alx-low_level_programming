@@ -13,5 +13,6 @@ int lastDigit;
 lastDigit = n % 10;
 else
 _putchar(lastDigit);
+_putchar(lastDigit);
 return (lastDigit);
 }
