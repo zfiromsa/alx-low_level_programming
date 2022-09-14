@@ -8,12 +8,13 @@
 
 int _islower(int c)
 {
-int ch;
 
-ch = c;
-if (ch == 67)
+if (c >= 97 && c <= 122)
 {
 return (1);
 }
+else
+{
 return (0);
+}
 }
