@@ -9,10 +9,10 @@
  */
 int _putchar()
 {
-char c[8]="_putchar";
+char c[]="_putchar";
 int i = 0;
 int ch;
-while (i < 9)
+while (i < 8)
 {
 ch = c[i];
 _putchar(ch);
