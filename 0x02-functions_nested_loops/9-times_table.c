@@ -4,19 +4,21 @@
 void times_table(void)
 {
 int i, j, t;
-for (i = 48; i <= 57; i++)
+for (i = 0; i <= 9; i++)
 {
-for (j = 48; j <= 57; j++)
+_putchar('0');
+for (j = 0; j <= 9; j++)
 {
 t = i * j;
-if (j != 57)
-{
-_putchar(t);
 _putchar(',');
+_putchar('');
+if (t <= 9)
 _putchar(' ');
-}
+else
+_putchar((t/10) + '0');
 _putchar(t);
-_putchar('\n');
+_putchar((t % 10) + '0');
 }
+_putchar('\n');
 }
 }
