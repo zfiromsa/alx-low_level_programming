@@ -8,7 +8,7 @@ for (i = 48; i <= 57; i++)
 for (j = 48; j <= 57; j++)
 {
 t = i * j;
-if (i != 57)
+if (j != 57)
 {
 _putchar(t);
 _putchar(',');
