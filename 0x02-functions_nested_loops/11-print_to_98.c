@@ -2,29 +2,32 @@
 
 void print_to_98(int n)
 {
-if (n <= 98)
+int i;
+
+i = n;
+if (i < 98)
 {
-while (n <= 98)
+while (i <= 98)
 {
-_putchar(n);
+_putchar(i);
 _putchar(',');
 _putchar(' ');
-n++;
+i++;
 }
 }
-else if (n >= 98)
+else if (i > 98)
 {
-for (n >= 98)
+for (i >= 98)
 {
-_putchar(n);
+_putchar(i);
 _putchar(',');
 _putchar(' ');
-n--;
+i--;
 }
 }
 else
 {
-_putchar(n);
+_putchar(i);
 }
 _putchar("\n");
 }
