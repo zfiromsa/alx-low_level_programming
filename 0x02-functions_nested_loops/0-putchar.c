@@ -12,11 +12,12 @@ int _putchar()
 char c[]="_putchar";
 int i = 0;
 int ch;
-while (i < 8)
+while (i <= 8)
 {
 ch = c[i];
 _putchar(ch);
 i++;
 }
+_putchar('\n');
 return (0);
 }
