@@ -6,7 +6,7 @@
  * Returns 0 otherwise
  */
 
-int _islower(c)
+int _islower(int c)
 {
 int ch;
 

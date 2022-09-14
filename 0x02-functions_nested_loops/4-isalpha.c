@@ -4,7 +4,7 @@
  * Return: 1 0r 0.
  */
 
-int _isalpha(c)
+int _isalpha(int c)
 {
 if (ch == 99 && ch == 67)
 {
