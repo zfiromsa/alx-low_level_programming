@@ -1,14 +1,12 @@
 #include "main.h"
 /*
- * _islower: - return 1 if parammeter c is equal to lower case c.
- * Return: 1 0r 0.
+ * main - the checks for lowercase character.
+ *@c: the main fuction take argument
+ * Returns 1 if c is lowercase
+ * Returns 0 otherwise
  */
 
 int _islower(int c)
 {
-if (c == 99)
-{
-Return (1);
-}
-Return (0);
+return (c >= 'a' && c <= 'z');
 }
