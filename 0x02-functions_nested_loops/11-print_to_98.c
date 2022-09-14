@@ -17,7 +17,7 @@ i++;
 }
 else if (i > 98)
 {
-for (i >= 98)
+while (i >= 98)
 {
 _putchar(i);
 _putchar(',');
