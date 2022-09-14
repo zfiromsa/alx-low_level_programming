@@ -12,7 +12,7 @@ printf("%d, ",n);
 }
 }
 else
-while (i < 98)
-printf ("%d, ",n++);
-printf("%d,n");
+while (n < 98)
+printf ("%d , ",n++);
+printf("%d\n,",n);
 }
