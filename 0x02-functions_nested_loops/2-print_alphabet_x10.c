@@ -2,7 +2,7 @@
 /*
  * print_alphabet_x10: - print out all lower case alphabet 10 times.
  * @void: it an argumint this fuction take.
- * Return: Always 0.
+ * Return: Always void.
  */
 
 void print_alphabet_x10(void)
