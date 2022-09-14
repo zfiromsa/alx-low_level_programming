@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _putchar: - display <putchar> followed by new line
+ * _putchar: - it is funct display <putchar> followed by new line
  * Return: Always 0
  */
  

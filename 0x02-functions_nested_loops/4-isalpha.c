@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * _islower: - it checks for alphabetic character.
+ * _islower: - it is func checks for alphabetic character.
  * @c: it is an argumint.
  * Return: 1 0r 0.
  */

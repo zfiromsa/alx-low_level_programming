@@ -1,6 +1,7 @@
 #include "main.h"
 /*
- * _abs: - it computes the absolute value of an integer.
+ * _abs: - it is func computes the 
+ * absolute value of an integer.
  * @n: the main fuction take argument
  * Returns: n if c is lowercase
  * 
