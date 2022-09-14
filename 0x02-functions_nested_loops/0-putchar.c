@@ -9,7 +9,7 @@
  */
 int _putchar()
 {
-char c[8]={"_putchar"};
+char c[8]="_putchar";
 int i = 0;
 int ch;
 while (i < 9)
