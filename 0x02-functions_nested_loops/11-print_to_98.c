@@ -5,9 +5,9 @@ void print_to_98(int n)
 int i;
 
 i = n;
-if (i < 98)
+if (i < '98')
 {
-while (i <= 98)
+while (i <= '98')
 {
 _putchar(i);
 _putchar(',');
@@ -15,9 +15,9 @@ _putchar(' ');
 i++;
 }
 }
-else if (i > 98)
+else if (i > '98')
 {
-while (i >= 98)
+while (i >= '98')
 {
 _putchar(i);
 _putchar(',');
