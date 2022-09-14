@@ -6,9 +6,9 @@ int i;
 
 for (i = n; i >= 98; i++ )
 {
-_putch(i);
-_putch(',');
-_putch(' ');
+_putchar(i);
+_putchar(',');
+_putchar(' ');
 }
 return (0);
 }
