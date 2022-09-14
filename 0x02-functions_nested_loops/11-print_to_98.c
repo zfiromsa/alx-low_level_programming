@@ -6,7 +6,7 @@ if (n <= 98)
 {
 while (n <= 98)
 {
-_putchar(i);
+_putchar(n);
 _putchar(',');
 _putchar(' ');
 n++;
@@ -16,7 +16,7 @@ else if (n >= 98)
 {
 for (n >= 98)
 {
-_putchar(i);
+_putchar(n);
 _putchar(',');
 _putchar(' ');
 n--;
@@ -24,6 +24,7 @@ n--;
 }
 else
 {
-_putchar(i);
+_putchar(n);
 }
+_putchar("\n");
 }
