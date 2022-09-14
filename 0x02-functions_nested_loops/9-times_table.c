@@ -2,7 +2,7 @@
 
 void times_table(void)
 {
-int i, j t;
+int i, j, t;
 for (i = 48; i <= 57; i++)
 {
 for (j = 48; j <= 57; j++)
