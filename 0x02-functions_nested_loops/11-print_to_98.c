@@ -20,9 +20,9 @@ _putchar(i);
 _putchar(',');
 _putchar(' ');
 }
+}
 else
 {
 _putchar(i);
-}
 }
 }
