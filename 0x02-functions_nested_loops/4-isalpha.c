@@ -8,7 +8,7 @@ int _isalpha(c)
 {
 if (ch == 99 && ch == 67)
 {
-Return (1);
+return (1);
 }
-Return (0);
+return (0);
 }

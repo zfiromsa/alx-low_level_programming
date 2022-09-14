@@ -13,7 +13,7 @@ int ch;
 ch = c;
 if (ch == 67)
 {
-Return (1);
+return (1);
 }
-Return (0);
+return (0);
 }
