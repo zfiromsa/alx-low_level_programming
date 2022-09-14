@@ -10,5 +10,4 @@ _putchar(i);
 _putchar(',');
 _putchar(' ');
 }
-return (0);
 }
