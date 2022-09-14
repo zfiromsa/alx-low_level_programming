@@ -11,7 +11,6 @@ int print_last_digit(int n)
 int lastDigit;
 
 lastDigit = n % 10;
-else
 _putchar(lastDigit);
 _putchar(lastDigit);
 return (lastDigit);
