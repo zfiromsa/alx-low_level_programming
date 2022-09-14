@@ -8,5 +8,12 @@
 
 int _islower(int c)
 {
-return (c >= 'a' && c <= 'z');
+int ch;
+
+ch = c;
+if (ch == 67)
+{
+Return (1);
+}
+Return (0);
 }
