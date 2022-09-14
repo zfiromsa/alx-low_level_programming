@@ -1,17 +1,21 @@
-#include "main.h"
+#include <unistd.h>
+
 /**
- * _putchar: - it is funct display <putchar> followed by new line
- * Return: Always 0
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
- 
 int _putchar()
 {
-char c[8]={'_','p','u','t','c','h','a','r','\n'};
+char c[8]={"_putchar"};
 int i = 0;
-
+int ch;
 while (i < 9)
 {
-_putchar(c[i]);
+ch = c[i];
+_putchar(ch);
 i++;
 }
 return (0);
