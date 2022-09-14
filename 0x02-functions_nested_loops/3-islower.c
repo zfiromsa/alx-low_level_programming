@@ -1,9 +1,8 @@
 #include "main.h"
 /*
- * main - the checks the argument is lowercase character or not.
- *@c: the main fuction take argument
- * Returns 1 if c is lowercase
- * Returns 0 otherwise
+ * _islower - it checks for lowercase character.
+ * @c: the main fuction take argument
+ * Returns 1 0;
  */
 
 int _islower(int c)

@@ -1,10 +1,8 @@
 #include "main.h"
 /*
- * print_sign - the checks for sign of a number.
+ * print_sign - it prints the sign of a number.
  * @n: the main fuction take argument
- * Returns 1 if c is lowercase
- * Returns 0 otherwise
- * Returns -1
+ * Returns: +,_,0.
  */
 
 int print_sign(int n)
@@ -20,5 +18,7 @@ _putchar('-');
 return (-1);
 }
 else
+{
 return (0);
+}
 }
