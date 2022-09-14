@@ -6,7 +6,7 @@
 
 int _islower(int c)
 {
-if(c==99)
+if (c == 99)
 {
 Return (1);
 }
