@@ -1,6 +1,7 @@
 #include "main.h"
 /*
  * _islower: - return 1 if parammeter c is equal alphabit c.
+ * @c: it is an argumint.
  * Return: 1 0r 0.
  */
 

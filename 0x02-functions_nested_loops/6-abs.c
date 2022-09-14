@@ -1,12 +1,16 @@
 #include "main.h"
+/*
+ * main -  function that computes the absolute value of an integer.
+ * @n: the main fuction take argument
+ * Returns 1 if c is lowercase
+ * Returns 0 otherwise
+ */
 
-int _abs(int)
+int _abs(int n)
 {
-int j;
-if(j < 0)
-{
-j = j * (-1);
-}
+if (n < 0)
+n = -n;
+return (n);
 else
-return (0);
+return (n);
 }
