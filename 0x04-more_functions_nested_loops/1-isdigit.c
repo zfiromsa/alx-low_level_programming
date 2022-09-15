@@ -1,4 +1,5 @@
 #include "main.h"
+
 /*
  * _islower: - it is func checks for alphabetic character.
  * @c: it is an argumint.
