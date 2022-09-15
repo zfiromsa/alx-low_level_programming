@@ -2,12 +2,13 @@
 
 void print_line(int n)
 {
-int j;
+int j, i;
 
 j = n;
+i =95;
 while(j <= n)
 {
-_putchar(95);
+_putchar(i);
 j++;
 }
 }
