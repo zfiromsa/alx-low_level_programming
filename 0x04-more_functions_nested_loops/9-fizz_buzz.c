@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include "main.h"
 
-void fizz_buzz(void)
+int main()
 {
 int i;
 
@@ -24,4 +23,5 @@ else (i % 3 = 0)
 printf("Buzz ");
 }
 }
+return (0);
 }
