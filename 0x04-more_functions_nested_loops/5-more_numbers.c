@@ -14,16 +14,16 @@ _putchar(i);
 }
 else
 {
-for(j = 49; j <= 49; j++)
+for(j = 49; j < 50; j++)
 {
-_putchar(j);
 for(l = 48; l <= 52; l++)
 {
+_putchar(j);
 _putchar(l);
 }
 }
 }
 }
-_putchar(\n);
+//
 }
 }
