@@ -2,19 +2,18 @@
 
 void print_diagonal(int n)
 {
-int i, j, in, s;
+int i, j;
 
-in = n;
-s = 32;
-if (in < 0)
+if (n > 0)
 {
-for (i = 1; i <= in; ++i)
+for (i = 1; i <= n; ++i)
 {
 for (j = 1; j <= i; ++j)
 {
-_putchar(s);
+_putchar(32);
 }
 }
+_putchar(92);
 _putchar("\n");
 }
 else
