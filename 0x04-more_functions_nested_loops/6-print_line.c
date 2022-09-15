@@ -4,11 +4,18 @@ void print_line(int n)
 {
 int j, i;
 
-j = n;
+j = 1;
 i =95;
-while(j <= n)
+if (n < 0)
+{
+while (j <= n)
 {
 _putchar(i);
 j++;
+}
+}
+else
+{
+break;
 }
 }
