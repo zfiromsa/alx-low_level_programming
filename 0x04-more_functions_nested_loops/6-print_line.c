@@ -6,7 +6,7 @@ int j, i;
 
 j = 1;
 i =95;
-if (n < 0)
+if (n > 0)
 {
 while (j <= n)
 {
