@@ -4,6 +4,8 @@ void more_numbers(void)
 {
 int i, j;
 
+for (int k = 0; int k < 10; k++)
+{
 for (i = 48; i <= 58; i++)
 {
 if(i != 58)
@@ -23,4 +25,5 @@ _putchar(j);
 }
 }
 _putchar('\n');
+}
 }
