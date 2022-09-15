@@ -2,20 +2,17 @@
 
 void print_line(int n)
 {
-int j, i;
+int j, i, in;
 
 j = 1;
 i =95;
-if (n > 0)
+in = n;
+if (in > 0)
 {
-while (j <= n)
+while (j >= in)
 {
 _putchar(i);
 j++;
 }
-}
-else
-{
-break;
 }
 }
