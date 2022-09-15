@@ -1,5 +1,5 @@
-#define MAIN_H
-#include <stdio.h>
+#ifndef main.h
+#define main.h
 
 positive_or_negative();
 int largest_number(int, int, int);
