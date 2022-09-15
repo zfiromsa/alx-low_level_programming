@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /*
  * _islower: - it is func checks for alphabetic character.
