@@ -16,7 +16,7 @@ else
 {
 for(j = 49; j < 49; j++)
 {
-_putchar(l);
+_putchar(j);
 for(l = 48; l <=52; l++)
 {
 _putchar(l);
