@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * mul - multiplies two integers and
- * return the resualt.
+ * return the resualt return the resualt.
  * param a
  * param b
  * return int
