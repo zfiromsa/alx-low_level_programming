@@ -7,17 +7,17 @@ int i, j, l, k;
 
 for (k = 0; k < 10; k++)
 {
-for (i = 48; i <= 58; i++)
+for (i = '0'; i <= '10'; i++)
 {
-if(i <= 57)
+if(i <= '9')
 {
 _putchar(i);
 }
 else
 {
-for(j = 49; j < 50; j++)
+for(j = '1'; j < '2'; j++)
 {
-for(l = 48; l <= 52; l++)
+for(l = 0; l <= '4'; l++)
 {
 _putchar(j);
 _putchar(l);
