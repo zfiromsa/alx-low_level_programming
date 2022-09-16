@@ -5,7 +5,7 @@
 * Return: void
 */ 
 
-void print_diagonal(int n)
+void print_diagonal(n)
 {
 int i, j, k, s, b;
 
