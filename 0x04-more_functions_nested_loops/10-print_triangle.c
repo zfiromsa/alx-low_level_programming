@@ -14,18 +14,21 @@ b = 35;
 s = 32;
 if (k > 0)
 {
-for (i = 1; i <= k; ++i) 
+for (i = 1; i <= k; i++)
 {
-for (j = k; j <= 1; --j)
+for (j = i; j < k; j++)
 {
-_putchar(' ');
+_putchar(s);
 }
+for (k = 1; k <= i; k++)
+{
 _putchar(b);
-_putchar('\n');
+}
+_putchar("\n");
 }
 }
 else
 {
-_putchar('\n');
+_putchar("\n");
 }
 }
