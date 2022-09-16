@@ -3,25 +3,22 @@
 /**
 * print_diagonal- print adiagonal
 * Return: void
-*/ 
+*/
 
 void print_diagonal(n)
 {
-int i, j, k, s, b;
+int i, j;
 
-k = n;
-b = 92;
-s = 32;
-if (k > 0)
+if (n > 0)
 {
-for (i = 1; i <= k; ++i) 
+for (i = 1; i <= n; i++)
 {
-for (j = 1; j <= i; ++j)
+for (j = 1; j <= i; j++)
 {
-_putchar(s);
+_putchar(' ');
 }
-_putchar(b);
-_putchar('\n');
+_putchar("\\");
+_putchar("\n");
 }
 }
 else

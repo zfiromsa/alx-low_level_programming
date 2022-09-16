@@ -3,21 +3,13 @@
 
 void print_line(int n)
 {
-int j, i, in;
+int bl;
 
-j = 1;
-i = 95;
-in = n;
-if (in >= 0)
+if (n > 0)
 {
-if (in != 0)
+for (bl = 1; bl <= n; bl++)
 {
-while (j >= in)
-{
-_putchar(i);
-j++;
-}
-_putchar('\n');
+_putchar('_');
 }
 else
 {

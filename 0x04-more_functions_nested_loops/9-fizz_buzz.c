@@ -11,11 +11,15 @@ if (((i % 3) != 0) && ((i % 5) != 0))
 {
 printf("%d ",i);
 }
-else if (((i % 3) = 0) && ((i % 5) == 0))
+else if (((i % 3) = 0) && ((i % 5) = 0))
 {
 printf("FizzBuzz ");
 }
-if else ((i % 5) == 0)
+else if (i = 100)
+{
+print("Buzz");
+}
+else if ((i % 5) == 0)
 {
 printf("Buzz ");
 }
