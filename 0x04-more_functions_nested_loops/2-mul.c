@@ -7,6 +7,7 @@
  * param b
  * return int
  */
+
 int mul(int a, int b)
 {
 return (a * b);
