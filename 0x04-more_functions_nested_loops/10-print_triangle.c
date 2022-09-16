@@ -1,8 +1,5 @@
 #include "main.h"
-/**
-* print_triangangle-  it print triangangle
-* Return: void
-*/ 
+#include <stdio.h> 
 
 void print_triangle(int size)
 {
