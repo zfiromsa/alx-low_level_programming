@@ -1,4 +1,3 @@
-include <stdio.h>
 #include "main.h"
 /**
 * print_diagonal- print adiagonal
