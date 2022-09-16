@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include "main.h"
+/**
+ * Fizz_buzz - it is a program that prints the numbers
+ * from 1 to 100, followed by a new line
+ * Return: void
+ */
 
-void fizz_buzz(void)
+void Fizz_buzz(void)
 {
 int i;
 

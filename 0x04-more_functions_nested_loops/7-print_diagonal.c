@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* print_diagonal- print adiagonal
-* Return: void
-*/
+ * print_square - prints a square, followed by a new line.
+ * @param n
+ * Return: void
+ */
 
 void print_diagonal(n)
 {

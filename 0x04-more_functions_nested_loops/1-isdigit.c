@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include "main.h"
-
-/*
- * _islower: - it is func checks for alphabetic character.
- * @c: it is an argumint.
- * Return: 1 0r 0.
+/**
+ * _isdigit - checks for a digit (0 through 9).
+ * @param c
+ * @return int
  */
 
 int _isdigit(int c)
