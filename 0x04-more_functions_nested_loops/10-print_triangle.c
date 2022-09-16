@@ -1,11 +1,11 @@
 #include <stdio.h> 
 #include "main.h"
 /**
-* print_triangangle- print print triangangle
+* print_triangangle-  it print triangangle
 * Return: void
 */ 
 
-void print_triangle(size)
+void print_triangle(int size)
 {
 int i, j, k, s, b;
 
