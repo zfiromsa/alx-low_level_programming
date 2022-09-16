@@ -6,9 +6,9 @@ int i, j, l, k;
 
 for (k = 0; k < 10; k++)
 {
-for (i = '0'; i <= "10"; i++)
+for (i = 48; i <= 58; i++)
 {
-if(i <= '9')
+if(i <= 57)
 {
 _putchar(i);
 }
