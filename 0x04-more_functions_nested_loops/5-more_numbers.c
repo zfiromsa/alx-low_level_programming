@@ -14,9 +14,9 @@ _putchar(i);
 }
 else
 {
-for(j = '1'; j < '2'; j++)
+for(j = 49; j < 50; j++)
 {
-for(l = '0'; l <= '4'; l++)
+for(l = 48; l <= 52; l++)
 {
 _putchar(j);
 _putchar(l);
