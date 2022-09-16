@@ -11,10 +11,10 @@ if((i != 50) && (i != 52))
 {
 _putchar(i);
 }
-}
 else
 {
 continue;
 }
 _putchar('\n');
+}
 }
