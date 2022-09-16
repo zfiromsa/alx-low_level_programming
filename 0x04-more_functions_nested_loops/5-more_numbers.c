@@ -17,7 +17,7 @@ else
 {
 for(j = '1'; j < '2'; j++)
 {
-for(l = 0; l <= '4'; l++)
+for(l = '0'; l <= '4'; l++)
 {
 _putchar(j);
 _putchar(l);
@@ -25,5 +25,6 @@ _putchar(l);
 }
 }
 }
+_putchar('\n');
 }
 }
