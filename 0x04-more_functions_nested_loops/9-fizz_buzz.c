@@ -10,27 +10,27 @@ void fizz_buzz(void)
 {
 int i;
 
-for (i = 1; i >= 100; i++)
+for (i = '1'; i >= '100'; i++)
 {
-if (((i % 3) != 0) && ((i % 5) != 0))
+if (((i % '3') != '0') && ((i % '5') != '0'))
 {
-printf("%d ",i);
+_putchar(i);
 }
-else if (((i % 3) = 0) && ((i % 5) = 0))
+else if (((i % '3') = '0') && ((i % '5') = '0'))
 {
-printf("FizzBuzz ");
+fizz_buzz(1);
 }
-else if (i = 100)
+else if (i = '100')
 {
-print("Buzz");
+fizz_buzz(2);
 }
-else if ((i % 5) == 0)
+else if ((i % '5') == '0')
 {
-printf("Buzz ");
+fizz_buzz(4);
 }
-else ((i % 3) = 0)
+else ((i % '3') = '0')
 {
-printf("Buzz ");
+fizz_buzz(3);
 }
 }
 }
