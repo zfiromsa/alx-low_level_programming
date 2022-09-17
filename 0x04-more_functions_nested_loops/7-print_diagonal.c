@@ -6,18 +6,19 @@
  * Return: void
  */
 
-void print_diagonal(n)
+void print_diagonal(int n)
 {
-int i, j, b;
+int i, j, b,s;
 
 b = 92;
+s = 32;
 if (n > 0)
 {
 for (i = 1; i <= n; i++)
 {
 for (j = 1; j <= i; j++)
 {
-_putchar(' ');
+_putchar(s);
 }
 _putchar(b);
 _putchar('\n');
