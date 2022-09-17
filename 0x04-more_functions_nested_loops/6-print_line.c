@@ -16,9 +16,5 @@ for (bl = 1; bl <= n; bl++)
 {
 _putchar('_');
 }
-else
-{
-_putchar('\n');
-}
 }
 }
