@@ -10,14 +10,13 @@
 
 void _puts(char *str)
 {
-int len;
 int i;
-char st;
+char st];
 
-len = strlen(str);
-for (i = 0; i <= len; i++)
+for (i = 0; ; i++)
 {
-if (i > len)
+
+if (str[i] != null)
 {
 st[i] = str[i];
 }
