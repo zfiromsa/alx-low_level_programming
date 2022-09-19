@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * _puts - prints a string, followed by \n, to stdout.
