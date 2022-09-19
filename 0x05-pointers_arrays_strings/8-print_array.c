@@ -2,9 +2,9 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * print_array - prints n elements of an array of integers
+ * print_array - prints elements of an array of integers
  * @a: first pointer to an int as parameter
- * @b: second pointer to an int as parameter
+ * @n: second pointer to an int as parameter
  * Return: return void
  */
 
