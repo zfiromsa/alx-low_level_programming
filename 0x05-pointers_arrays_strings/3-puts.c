@@ -15,5 +15,5 @@ while (*(str + i) != '\n')
 putchar(*(str + i));
 i++;
 }
-puts('\n');
+putschar('\n');
 }
