@@ -11,6 +11,8 @@
 void _puts(char *str)
 {
 char st[63];
+int i;
+
 for (i = 0; i <= 63; i++)
 {
 if (i > 63)
