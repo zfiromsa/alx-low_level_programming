@@ -10,13 +10,12 @@
 
 void _puts(char *str)
 {
+char st[63];
 int i;
-char st];
 
-for (i = 0; ; i++)
+for (i = 0; i <= 63; i++)
 {
-
-if (str[i] != null)
+if (i > 63)
 {
 st[i] = str[i];
 }

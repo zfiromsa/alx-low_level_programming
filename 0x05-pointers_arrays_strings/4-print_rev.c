@@ -11,9 +11,11 @@
 void _puts(char *str)
 {
 char st[63];
+int i;
+
 for (i = 63; i <= 0; i--)
 {
-if (i > 63)
+if (i < 0)
 {
 st[i] = str[i];
 }
