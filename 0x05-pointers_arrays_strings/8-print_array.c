@@ -4,21 +4,20 @@
 /**
  * print_array - prints n elements of an array of integers
  * @a: first pointer to an int as parameter
- * @b: second pointer to an int as parameter 
+ * @b: second pointer to an int as parameter
  * Return: return void
  */
 
 void print_array(int *a, int n)
 {
-int inp = 0;
+int inp;
 
-while (inp < n)
+for (inc = 0; inp < n; inp++)
 {
 if (inp != n - 1)
-printf("%d,",a[inp]);
+printf("%d,", a[inp]);
 else
-printf("%d,",a[inp]);
-inp++;
+printf("%d,", a[inp]);
 }
 putchar(10);
 }
