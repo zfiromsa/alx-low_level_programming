@@ -3,7 +3,7 @@
 /**
  * swap_int - swaps the values of two integers
  * @*a: it is the first parameter
- * @*b: it is the second parameter 
+ * @*b: it is the second parameter
  * Return: void
  */
 
