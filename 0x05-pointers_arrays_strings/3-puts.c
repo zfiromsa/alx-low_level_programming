@@ -12,7 +12,7 @@ int i = 0;
 
 while (*(str + i) != '\n')
 {
-puts(*(str + i));
+putchar(*(str + i));
 i++;
 }
 puts('\n');
