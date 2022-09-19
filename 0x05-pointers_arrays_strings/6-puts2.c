@@ -13,7 +13,7 @@ int i = 0;
 while (*(str + i) != '\0')
 {
 if (i % 2 == 0)
-putchar(*(str +i));
+putchar(*(str + i));
 i++;
 }
 putchar(10);
