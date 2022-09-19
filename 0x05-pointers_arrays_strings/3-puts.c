@@ -12,6 +12,7 @@ void _puts(char *str)
 {
 int len;
 int i;
+char st;
 
 len = strlen(str);
 for (i = 0; i <= len; i++)
