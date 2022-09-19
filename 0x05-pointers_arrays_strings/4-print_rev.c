@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 /**
  * print_rev - prints a string revirs.
@@ -8,24 +9,11 @@
 
 void print_rev(char *s)
 {
-int len;
+int len = strlen(s);
 
-int i = 0;
-while (*(s + i) != '\0')
-{
-len = i + 1;
-i++;
-}
-if (len >= 1 )
-{
 while (len--)
 {
 putchar(*(s + len));
 }
 putchar(10);
-}
-else
-{
-putchar(10);
-}
 }
