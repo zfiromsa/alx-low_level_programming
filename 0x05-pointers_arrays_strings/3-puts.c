@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 /**
  * _puts - prints a string, followed by \n, to stdout.
@@ -9,4 +10,17 @@
 
 void _puts(char *str)
 {
+char st[63];
+for (i = 0; i <= 63; i++)
+{
+if (i > 63)
+{
+st[i] = str[i];
+}
+else
+{
+st[i] = str[i];
+}
+}
+puts(st);
 }
