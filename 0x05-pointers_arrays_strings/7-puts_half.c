@@ -1,5 +1,6 @@
-#include <stdio.h>
 #include "main.h"
+#include <string.h>
+#include <stdio.h>
 /**
  * puts_half - prints every other character of a string.
  * @str: pointer to an char as parameter
@@ -17,7 +18,7 @@ if(len % 2 == 0)
 n = (len / 2) + 1;
 while (n++)
 {
-putchar(*(str + n))
+putchar(*(str + n));
 }
 }
 else if (len % 2 != 0)
@@ -25,8 +26,8 @@ else if (len % 2 != 0)
 n = (len - 1) / 2;
 while (n++)
 {
-putchar(*(str + n))
+putchar(*(str + n));
 }
 }
-putchar(10)
+putchar(10);
 }
