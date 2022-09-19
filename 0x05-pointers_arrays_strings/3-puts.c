@@ -1,28 +1,18 @@
-#include <stdio.h>
-#include <string.h>
 #include "main.h"
 /**
  * _puts - prints a string, followed by \n, to stdout.
- * @*str: pointer to an char as parameter
- *
- * Return: void
+ * @str: pointer to an char as parameter
+ * Return: return void
  */
 
 void _puts(char *str)
 {
-char st[63];
 int i;
 
-for (i = 0; i <= 63; i++)
+while (*(str + i) != '\n')
 {
-if (i > 63)
-{
-st[i] = str[i];
+puts(*(str + i));
+i++;
 }
-else
-{
-st[i] = str[i];
-}
-}
-puts(st);
+puts('\n');
 }
