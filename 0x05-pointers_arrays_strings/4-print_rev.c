@@ -8,9 +8,9 @@
  * Return: void
  */
 
-void _puts(char *str)
+void rev_string(char *s)
 {
-char st[63];
+char st[1000];
 int i;
 
 for (i = 63; i <= 0; i--)
