@@ -22,8 +22,8 @@ n = ((len - 1) / 2) + 1;
 while (n++)
 {
 putchar(*(str + n));
-putchar(10);
 }
+putchar(10);
 }
 else
 {
@@ -31,7 +31,7 @@ n = (len / 2) + 1;
 while (n++)
 {
 putchar(*(str + n));
-putchar(10);
 }
+putchar(10);
 }
 }
