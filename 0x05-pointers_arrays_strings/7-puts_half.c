@@ -28,7 +28,7 @@ putchar(10);
 }
 else
 {
-n = (len / 2);
+n = (len / 2) + 1;
 while (n < len)
 {
 putchar(*(str + n));
