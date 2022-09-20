@@ -12,9 +12,12 @@ void print_array(int *a, int n)
 {
 int inp;
 
-for (inp = 0; inp <= (n + 1); inp++)
+for (inp = 0; inp <= n; inp++)
 {
-printf("%d,", a[inp]);
+if (inp < n)
+printf("%d, ", a[inp]);
+else
+printf("%d", a[inp]);
 }
 putchar(10);
 }
