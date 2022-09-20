@@ -19,9 +19,5 @@ while (i < len)
 rev[i] = s[((len - 1) - i)];
 i++;
 }
-while (i < len)
-{
-s[i] = rev[i];
-i++;
-}
+s = rev;
 }
