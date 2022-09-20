@@ -6,7 +6,7 @@
  * @s: pointer to an char as parameter
  * Return: return void
  */
- void rev_string(char *s)
+void rev_string(char *s)
 {
 char *rev;
 int len, i;
@@ -14,12 +14,12 @@ int len, i;
 len = strlen(s);
 i = 0;
 rev = s;
-while (i <= len)
+while (i <= (len -1))
 {
-rev[i] = s[len - i];
+rev[i] = s[len];
 i++;
 }
-while (i <= len)
+while (i <= (len - 1))
 {
 s[i] = rev[i];
 i++;
