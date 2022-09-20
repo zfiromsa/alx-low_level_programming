@@ -11,7 +11,6 @@
 char *_strcpy(char *dest, char *src)
 {
 int i, len;
-//har end ='10';
 
 len = strlen(src) + 1;
 i = 0;
@@ -19,11 +18,11 @@ while (i <= len)
 {
 if (i < len)
 {
-dest[i] = &src[i];
+dest[i] = src[i];
 }
 else
 {
-//dest[i] = end;
+
 }
 i++;
 }
