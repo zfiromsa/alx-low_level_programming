@@ -14,7 +14,11 @@ int inp;
 
 for (inp = 0; inp < n; inp++)
 {
-if (inp != n - 1)
+if (n == o)
+{
+continue;
+}
+else if (inp != n - 1)
 printf("%d,", a[inp]);
 else
 printf("%d,", a[inp]);
