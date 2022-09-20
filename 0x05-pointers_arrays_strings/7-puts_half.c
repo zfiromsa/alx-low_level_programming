@@ -18,8 +18,8 @@ putchar(10);
 }
 else if (len % 2 != 0)
 {
-n = ((len - 1) / 2);
-while (len)
+n = ((len - 1) / 2) + 1;
+while (n <= len)
 {
 putchar(*(str + n));
 n++;
@@ -28,8 +28,8 @@ putchar(10);
 }
 else
 {
-n = (len / 2);
-while (len)
+n = (len / 2) + 1;
+while (n <= len)
 {
 putchar(*(str + n));
 n++;
