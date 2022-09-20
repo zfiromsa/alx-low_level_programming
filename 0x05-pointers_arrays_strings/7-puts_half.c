@@ -18,19 +18,21 @@ putchar(10);
 }
 else if (len % 2 != 0)
 {
-n = ((len - 1) / 2) + 1;
-while (n++)
+n = ((len - 1) / 2);
+while (len)
 {
 putchar(*(str + n));
+n++;
 }
 putchar(10);
 }
 else
 {
-n = (len / 2) + 1;
-while (n++)
+n = (len / 2);
+while (len)
 {
 putchar(*(str + n));
+n++;
 }
 putchar(10);
 }
