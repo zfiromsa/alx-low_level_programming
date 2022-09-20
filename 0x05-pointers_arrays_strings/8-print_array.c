@@ -14,7 +14,7 @@ int inp;
 
 for (inp = 0; inp <= n; inp++)
 {
-printf("%d,", a[inp]);
+printf("%c,", a[inp]);
 }
 putchar(10);
 }
