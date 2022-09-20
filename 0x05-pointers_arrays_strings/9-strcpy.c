@@ -19,11 +19,11 @@ while (i <= len)
 {
 if (i < len)
 {
-*dest[i] = &src[i];
+dest[i] = &src[i];
 }
 else
 {
-*dest[i] = end;
+//dest[i] = end;
 }
 i++;
 }
