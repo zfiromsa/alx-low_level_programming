@@ -14,12 +14,12 @@ int len, i;
 len = strlen(s);
 i = 0;
 rev = s;
-while (i <= (len - 1))
+while (i < len)
 {
-rev[i] = s[len - i];
+rev[i] = s[(len - i) + 1];
 i++;
 }
-while (i <= (len - 1))
+while (i < len)
 {
 s[i] = rev[i];
 i++;
