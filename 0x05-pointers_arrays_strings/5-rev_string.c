@@ -13,6 +13,7 @@ int len, i;
 
 len = strlen(s);
 i = 0;
+rev[len];
 while (i <= len)
 {
 rev[i] = s[len - i];
