@@ -1,17 +1,44 @@
 #include <strio.h>
 #include "main.h"
-
+/**
+ * _strcat -  
+ *
+ * @brief 
+ * 
+ * @param dest 
+ * @param stc 
+ * @return char* 
+ */
 char *_strcat(char *dest, char *stc)
 {
-int i, len, len1, len2;
+int i, len, len1, len2, j;
+char *conc;
 
 i = 0;
+j = 0;
 len1 = strlen(stc);
 len2 = strlen(dest);
 len = len1 + len2 - 1;
+conc[len];
 while(i < len)
 {
-stc[len1 + i] = dest[i];
+if (i < len1)
+{
+conc[i] = stc[i];
+}
+else if (i == len1)
+{
+conc[i] = ' ';
+}
+else
+{
+while (j < len2)
+{
+conc[i] = dest[j];
+j++;
+}
+}
 i++;
 }
+return (conc);
 }
