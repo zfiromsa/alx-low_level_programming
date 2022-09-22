@@ -28,10 +28,6 @@ if (i < len1)
 {
 conc[i] = stc[i];
 }
-else if (i == len1)
-{
-conc[i] = ' ';
-}
 else
 {
 while (j < len2)
