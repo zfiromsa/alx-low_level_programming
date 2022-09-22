@@ -13,14 +13,13 @@
 char *_strncat(char *dest, char *src, int n)
 {
 int i, len, len1, len2, j;
-char *conc;
 
 i = 0;
 j = 0;
 len1 = strlen(stc);
 len2 = strlen(dest);
 len = len1 + len2 - 1;
-conc[len];
+chat  *conc = malloc(len);
 while(i < len)
 {
 if (i < len1)
@@ -42,5 +41,6 @@ j++;
 i++;
 }
 dest =  conc;
+free(conc);
 return (dest);
 }
