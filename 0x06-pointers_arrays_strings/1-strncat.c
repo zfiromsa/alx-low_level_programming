@@ -3,16 +3,16 @@
 /**
  * _strcat -  
  *
- * @brief 
  * 
- * @param dest 
- * @param stc 
- * @return char* 
+ * @dest 
+ * @stc 
+ * Return: char* 
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
 int i, len, len1, len2, j;
-char *conc;
+int *conc;
 
 i = 0;
 j = 0;
