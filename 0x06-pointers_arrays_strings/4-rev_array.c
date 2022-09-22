@@ -5,25 +5,19 @@
  * @a: the string to be reverses
  * @n: is the number of elements of the array
  */
-void reverse_array(int *a, int n)
+void print_array(int *a, int n)
 {
-char *rev;
-int i, j;
+    int i;
 
-i = 0;
-rev = a;
-if (n == 1)
-{
-rev = a; 
-}
-else
-{
-while (i < n)
-{
-j = n - i;
-rev[i] = a[j];
-i++;
-}
-}
-a = rev;
+    i = 0;
+    while (i < n)
+    {
+        if (i != 0)
+        {
+            printf(", ");
+        }
+        printf("%d", a[i]);
+        i++;
+    }
+    printf("\n");
 }
