@@ -19,7 +19,7 @@ j = 0;
 len1 = strlen(stc);
 len2 = strlen(dest);
 len = len1 + len2 - 1;
-chat  *conc = malloc(len);
+char  *conc = malloc(len);
 while(i < len)
 {
 if (i < len1)
