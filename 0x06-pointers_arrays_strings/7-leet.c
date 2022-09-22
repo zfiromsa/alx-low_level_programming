@@ -7,32 +7,35 @@ int i, len;
 
 i = 0;
 len = strlen(s);
+char *str = malloc(len - 1);
 while (i < len)
 {
 if (s[i] == ('a' || 'A')
 {
-s[i] = '4';
+str[i] = '4';
 }
 else if (s[i] == ('e' || 'E')
 {
-s[i] = '3';
+str[i] = '3';
 }
 else if (s[i] == ('o' || 'O')
 {
-s[i] = '0';
+str[i] = '0';
 }
 else if (s[i] == ('t' || 'T')
 {
-s[i] = '7';
+str[i] = '7';
 }
 else if (s[i] == ('l' || 'L')
 {
-s[i] = '1';
+str[i] = '1';
 }
 else
 {
+str[i] = s[i];
 }
 i++;
 }
-return (s);
+free(str);
+return (str);
 }
