@@ -9,23 +9,23 @@ i = 0;
 len = strlen(s);
 while (i < len)
 {
-if (s[i] = ('a' || 'A')
+if (s[i] == ('a' || 'A')
 {
 s[i] = '4';
 }
-else if (s[i] = ('e' || 'E')
+else if (s[i] == ('e' || 'E')
 {
 s[i] = '3';
 }
-else if (s[i] = ('o' || 'O')
+else if (s[i] == ('o' || 'O')
 {
 s[i] = '0';
 }
-else if (s[i] = ('t' || 'T')
+else if (s[i] == ('t' || 'T')
 {
 s[i] = '7';
 }
-else if (s[i] = ('l' || 'L')
+else if (s[i] == ('l' || 'L')
 {
 s[i] = '1';
 }
