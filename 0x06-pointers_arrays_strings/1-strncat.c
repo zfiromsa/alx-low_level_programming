@@ -12,7 +12,7 @@
 char *_strncat(char *dest, char *src, int n)
 {
 int i, len, len1, len2, j;
-int *conc;
+char *conc;
 
 i = 0;
 j = 0;
