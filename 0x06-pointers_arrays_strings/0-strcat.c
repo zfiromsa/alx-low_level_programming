@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <strio.h>
+#include <string.h>
 #include "main.h"
 /**
  * _strcat -  
