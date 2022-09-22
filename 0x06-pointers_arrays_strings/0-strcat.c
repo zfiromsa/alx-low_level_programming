@@ -40,5 +40,6 @@ j++;
 }
 i++;
 }
-return (conc);
+dest =  conc;
+return (dest);
 }
