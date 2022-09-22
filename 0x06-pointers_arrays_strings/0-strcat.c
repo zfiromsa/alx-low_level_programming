@@ -22,7 +22,7 @@ len1 = strlen(stc);
 len2 = strlen(dest);
 len = len1 + len2 - 1;
 char *conc = malloc(len);
-while(i < len)
+while(i <= len)
 {
 if (i < len1)
 {
