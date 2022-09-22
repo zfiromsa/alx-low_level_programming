@@ -18,9 +18,8 @@ i = 0;
 j = 0;
 len1 = strlen(stc);
 len2 = strlen(dest);
-len = len1 + len2 - 1;
-char  *conc = malloc(len);
-while(i < len)
+char  *conc = malloc(n);
+while(i < n)
 {
 if (i < len1)
 {
@@ -32,7 +31,7 @@ conc[i] = ' ';
 }
 else
 {
-while (j < n)
+while (j < len2)
 {
 conc[i] = dest[j];
 j++;
