@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <strio.h>
 #include "main.h"
 /**
@@ -9,6 +10,7 @@
  * @param stc 
  * @return char* 
  */
+
 char *_strcat(char *dest, char *stc)
 {
 int i, len, len1, len2, j;
