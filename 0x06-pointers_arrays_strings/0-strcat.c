@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include "main.h"
 /**
  * _strcat -  
@@ -14,14 +15,13 @@
 char *_strcat(char *dest, char *stc)
 {
 int i, len, len1, len2, j;
-char *conc;
 
 i = 0;
 j = 0;
 len1 = strlen(stc);
 len2 = strlen(dest);
 len = len1 + len2 - 1;
-conc[len];
+char *conc = malloc(len);
 while(i < len)
 {
 if (i < len1)
