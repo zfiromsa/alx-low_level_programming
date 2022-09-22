@@ -12,11 +12,18 @@ int i, j;
 
 i = 0;
 rev = a;
+if (n == 1)
+{
+rev = a; 
+}
+else
+{
 while (i < n)
 {
 j = n - i;
 rev[i] = a[j];
 i++;
+}
 }
 a = rev;
 }
