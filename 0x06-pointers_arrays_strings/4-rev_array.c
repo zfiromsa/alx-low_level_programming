@@ -11,10 +11,10 @@
 
 void reverse_array(int *a, int n)
 {
-int *rev = malloc(n);
-int i, j;
+int i, j, *rev;
 
 i = 0;
+rev = a;
 if (n <= 1)
 {
 rev = a;
@@ -29,5 +29,4 @@ i++;
 }
 }
 a = rev;
-free(rev);
 }
