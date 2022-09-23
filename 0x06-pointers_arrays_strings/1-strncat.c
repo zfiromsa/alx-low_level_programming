@@ -5,7 +5,7 @@
  * @dest: first parm
  * @src: second parm
  * @n: third parm
- * Return: dest 
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
