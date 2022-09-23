@@ -1,10 +1,10 @@
 #include <string.h>
 #include "main.h"
 /**
- * _strcat -  
- * @dest:
- * @stc: 
- * @dest: 
+ * _strcat - concatenates two strings
+ * @dest: first pointer patammeter
+ * @stc: second pointer parammeter
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *stc)
@@ -30,7 +30,7 @@ conc[i] = ' ';
 }
 else
 {
-while (j < len2)
+while (j <= len2)
 {
 conc[i] = dest[j];
 j++;
