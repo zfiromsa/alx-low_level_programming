@@ -18,7 +18,7 @@ len1 = strlen(stc);
 len2 = strlen(dest);
 len = len1 + len2 - 1;
 conc = dest;
-while(i <= len)
+while(i < len)
 {
 if (i < len1)
 {
@@ -26,7 +26,7 @@ conc[i] = stc[i];
 }
 else
 {
-while (j < (len2 - 1))
+while (j < len2)
 {
 conc[i] = dest[j];
 j++;
