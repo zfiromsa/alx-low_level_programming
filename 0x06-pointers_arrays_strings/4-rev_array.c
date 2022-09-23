@@ -19,14 +19,20 @@ if (n <= 1)
 {
 rev = a;
 }
-else
+else if (i < n)
 {
 while (i <= n)
 {
+if (i < n)
+{
 j = n - i;
 rev[i] = a[j];
-i++;
 }
+else
+{
+rev[i] = a[i];
+}
+i++;
 }
 a = rev;
 }
