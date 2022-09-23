@@ -1,39 +1,22 @@
-#include <string.h>
 #include "main.h"
 /**
- * _strcat - concatenates two strings
- * @dest: first pointer patammeter
- * @stc: second pointer parammeter
- * Return: dest
+ * _strcat -
+ * @dest:
+ * @src:
+ * @return char*
  */
 
-char *_strcat(char *dest, char *stc)
+char *_strcat(char *dest, char *src)
 {
-int i, j, len, len1, len2;
-char *conc;
+int len =0, i;
 
-i = 0;
-j = 0;
-len1 = strlen(stc);
-len2 = strlen(dest);
-len = len1 + len2 - 1;
-conc = dest;
-while(i < len)
+while (dest[len])
+len++;
+for (i = 0; stc[i] != '\0'; i++)
 {
-if (i < len1)
-{
-conc[i] = stc[i];
+dest[len] = src[i];
+len = len +1; 
 }
-else
-{
-while (j < (len2 - 1))
-{
-conc[i] = dest[j];
-j++;
-}
-}
-i++;
-}
-dest =  conc;
+dest[len] = '\0';
 return (dest);
 }
