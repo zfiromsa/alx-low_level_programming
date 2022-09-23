@@ -28,6 +28,6 @@ rev[i] = a[j];
 i++;
 }
 }
-free(rev);
 a = rev;
+free(rev);
 }
