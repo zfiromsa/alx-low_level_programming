@@ -13,7 +13,7 @@ int len = 0, i;
 
 while (dest[len])
 len++;
-for (i = 0; stc[i] != '\0'; i++)
+for (i = 0; src[i] != '\0'; i++)
 {
 dest[len] = src[i];
 len = len +1; 
