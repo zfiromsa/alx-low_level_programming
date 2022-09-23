@@ -19,7 +19,7 @@ if (n <= 1)
 {
 rev = a;
 }
-else if (i < n)
+else
 {
 while (i <= n)
 {
@@ -33,6 +33,7 @@ else
 rev[i] = a[i];
 }
 i++;
+}
 }
 a = rev;
 }
