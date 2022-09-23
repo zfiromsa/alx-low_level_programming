@@ -19,7 +19,7 @@ rev = a;
 }
 else
 {
-while (i < n)
+while (i <= n)
 {
 j = n - i;
 rev[i] = a[j];
