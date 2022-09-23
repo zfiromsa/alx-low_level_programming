@@ -1,27 +1,23 @@
-#include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
 #include "main.h"
 /**
  * _strcat -  
- *
- * @brief 
- * 
- * @param dest 
- * @param stc 
- * @return char* 
+ * @dest:
+ * @stc: 
+ * @dest: 
  */
 
 char *_strcat(char *dest, char *stc)
 {
-int i, len, len1, len2, j;
+int i, j, len, len1, len2;
+char *conc;
 
 i = 0;
 j = 0;
 len1 = strlen(stc);
 len2 = strlen(dest);
 len = len1 + len2 - 1;
-char *conc = malloc(len);
+conc = dest;
 while(i <= len)
 {
 if (i < len1)
