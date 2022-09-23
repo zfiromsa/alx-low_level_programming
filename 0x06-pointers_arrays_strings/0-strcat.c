@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * _strcat -
@@ -8,7 +9,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-int len =0, i;
+int len = 0, i;
 
 while (dest[len])
 len++;
