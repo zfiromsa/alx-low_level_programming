@@ -26,7 +26,7 @@ conc[i] = stc[i];
 }
 else
 {
-while (j < len2)
+while (j < (len2 - 1))
 {
 conc[i] = dest[j];
 j++;
