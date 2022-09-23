@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strncat -  concatenates two strings.
+ * _strncat - compares two strings.
  * @s2: first parm
  * @s1: second parm
  * Return: dest
