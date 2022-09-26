@@ -2,7 +2,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * _memcpy - func that search a str for any of a set of bytes.
+ * _strpbrk - func that search a str for any of a set of bytes.
  * @s: first parm
  * @accept: second parm
  * return: len
