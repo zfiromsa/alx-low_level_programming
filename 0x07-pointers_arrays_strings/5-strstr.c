@@ -3,12 +3,12 @@
 #include "main.h"
 /**
  * _memcpy - func that locates a substring.
- * @s: first parm
- * @accept: second parm
- * return: len
+ * @haystack: first parm
+ * @needle: second parm
+ * return: 
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-return (strstr(s,accept));
+return (strstr(haystack, needle));
 }
