@@ -10,8 +10,5 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-int len;
-
-len = strstr(s,accept);
-return (len);
+return (strstr(s,accept));
 }
