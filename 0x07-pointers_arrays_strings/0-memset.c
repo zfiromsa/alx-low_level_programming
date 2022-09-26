@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _memset - func that fills memory with a constant byte
- * 
+ *
  * @s: first parm
  * @b: second parm
  * @n: third parm
@@ -11,5 +11,11 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-return (memset(s,b,n));
+int i;
+
+for (i = 0; a < n; i++)
+{
+s[i] = b;
+}
+return (s);
 }
