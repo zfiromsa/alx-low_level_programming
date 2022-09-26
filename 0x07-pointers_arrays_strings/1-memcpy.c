@@ -2,15 +2,14 @@
 #include <string.h>
 #include "main.h"
 /**
- * _memcpy - func that fills memory with a constant byte
- * 
- * @src:
- * @dest:
- * @n:
+ * _memcpy - func that fills memory with a constant byte 
+ * @src: first parm
+ * @dest: second parm
+ * @n: third parm
  * return: dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-return (memcpy(dest,src,n));
+return (memcpy(dest, src, n));
 }
