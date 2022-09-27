@@ -13,7 +13,8 @@ for (i = 0; i < 8; i++)
 {
 for (j = 0; j < 8; j++)
 {
-_puchar(a[i][j]);
+v = *(&a + i + j);
+_puchar(v);
 }
 }
 }
