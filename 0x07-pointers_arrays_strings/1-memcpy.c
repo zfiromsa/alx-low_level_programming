@@ -6,10 +6,11 @@
  * @src: first parm
  * @dest: second parm
  * @n: third parm
- * return: dest
+ * return: char
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
+
 return (memcpy(dest, src, n));
 }
