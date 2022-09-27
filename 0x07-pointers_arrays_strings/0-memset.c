@@ -2,7 +2,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * _memset - func that fills memory wit
+ * _memset - function that fills memory with a constant byte
  * @s: first parm
  * @b: second parm
  * @n: third parm
