@@ -18,10 +18,7 @@ if (i > 49)
 {
 printf("%d, ", fib);
 }
-else
-{
 printf("%d", fib);
-}
 }
 return (0);
 }
