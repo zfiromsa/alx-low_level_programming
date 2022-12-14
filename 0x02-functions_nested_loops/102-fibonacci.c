@@ -20,7 +20,7 @@ for (i = 0; i < 48; ++i)
 t1 = t2;
 t2 = nextN;
 nextN = t1 + t2;
-printf("%d, ", nextN);
+printf("%ld, ", nextN);
 }
 return (0);
 }
