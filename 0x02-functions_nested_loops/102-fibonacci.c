@@ -30,3 +30,4 @@ printf("%ld", nextN);
 }
 return (0);
 }
+}
