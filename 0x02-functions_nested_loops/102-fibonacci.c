@@ -14,7 +14,7 @@ long t1, t2, nextN;
 t1 = 0;
 t2 = 1;
 nextN = t1 + t2;
-printf("1, 2, ");
+printf("1, ");
 for (i = 0; i <= 48; ++i)
 {
 t1 = t2;
