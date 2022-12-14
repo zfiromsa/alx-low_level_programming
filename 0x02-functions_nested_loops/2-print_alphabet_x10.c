@@ -1,10 +1,8 @@
 #include "main.h"
-/*
- * print_alphabet_x10: -  it is funct prints 10 times alphabet
- * lowercase followed.
- * by a new line.
- * @void: it an argumint this fuction take.
- * Return: Always void.
+/**
+ * print_alphabet_x10:- prints 10 times the alphabet, in lowercase.
+ *
+ * Return: Always 0.
  */
 
 void print_alphabet_x10(void)
