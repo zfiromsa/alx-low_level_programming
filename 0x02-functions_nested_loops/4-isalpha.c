@@ -1,8 +1,8 @@
 #include "main.h"
-/*
- * _islower: - it is func checks for alphabetic character.
- * @c: it is an argumint.
- * Return: 1 0r 0.
+/** 
+ * int _isalpha:- checks for alphabetic character.
+ *
+ * Return: Always 1 or 0.
  */
 
 int _isalpha(int c)
