@@ -26,7 +26,7 @@ printf("%ld, ", nextN);
 }
 else
 {
-printf("%ld", nextN);
+printf("%ld/n", nextN);
 }
 }
 return (0);
