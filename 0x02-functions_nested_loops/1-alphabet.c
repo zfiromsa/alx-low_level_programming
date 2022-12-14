@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- * @brief 
  * print_alphabet:- prints the alphabet, in lowercase.
  *
  * Return: Always 0.
