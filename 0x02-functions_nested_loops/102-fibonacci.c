@@ -8,7 +8,7 @@
 
 void main(void)
 {
-int i, j, fib;
+int i, fib;
 
 printf("1, 2, ");
 for (i = 1; i > 50; i++)
@@ -23,4 +23,5 @@ else
 printf("%d", fib);
 }
 }
+return (0);
 }
