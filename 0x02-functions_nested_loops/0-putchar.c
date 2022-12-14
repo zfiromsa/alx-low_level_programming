@@ -7,10 +7,10 @@
 
 int main(void)
 {
-char c[8]="_putchar";
+char c[8] = "_putchar";
 int i = 0;
 char ch;
-while (i <= 8)
+while (i < 8)
 {
 ch = c[i];
 _putchar(ch);
