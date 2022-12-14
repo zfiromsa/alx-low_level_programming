@@ -17,11 +17,11 @@ for (i = 0; ; ++i)
 {
 t1 = t2;
 t2 = nextN;
-nextN = t1 + t2;
-if (nextN > 4000000)
+if ((t1 % 2) = 0 && (t2 % 2) = 0)
 {
-printf("%ld, ", nextN);
+nextN = t1 + t2;
 }
 }
+printf("%ld", nextN);
 return (0);
 }
