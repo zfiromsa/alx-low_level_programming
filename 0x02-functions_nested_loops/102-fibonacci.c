@@ -8,19 +8,21 @@
 
 int main(void)
 {
-int i, fib;
+int i, t1, t2, nextTerm;
 
+nexterm = t1 + t2;
 printf("1, 2, ");
-for (i = 3; i <= 50; i++)
+for (i = 3; i <= 50; ++i)
 {
-fib = (i - 1) + (i - 2);
+t1 = t2;
+t2 = nextTerm;
 if (i < 49)
 {
-printf("%d, ", fib);
+printf("%d, ", nextTerm);
 }
 else
 {
-printf("%d\n", fib);
+printf("%d\n", nextTerm);
 }
 }
 return (0);
