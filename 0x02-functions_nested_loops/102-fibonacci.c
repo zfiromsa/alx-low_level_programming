@@ -15,12 +15,12 @@ t1 = 0;
 t2 = 1;
 nextN = t1 + t2;
 printf("1, 2, ");
-for (i = 0; i <= 46; ++i)
+for (i = 0; i <= 48; ++i)
 {
 t1 = t2;
 t2 = nextN;
 nextN = t1 + t2;
-if (i < 46)
+if (i < 48)
 {
 printf("%ld, ", nextN);
 }
