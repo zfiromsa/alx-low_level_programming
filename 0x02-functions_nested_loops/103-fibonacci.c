@@ -4,7 +4,8 @@
  *
  *
  */
- int main(void)
+
+int main(void)
 {
 int i;
 long t1, t2, nextN;
@@ -17,7 +18,7 @@ for (i = 0; ; ++i)
 {
 t1 = t2;
 t2 = nextN;
-if ((t1 % 2) = 0 && (t2 % 2) = 0)
+if ((t1 % 2) == 0 && (t2 % 2) == 0)
 {
 nextN = t1 + t2;
 }
