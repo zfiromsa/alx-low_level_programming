@@ -26,6 +26,6 @@ break;
 }
 }
 }
-printf("%d\n");
+printf("%d\n", nextN);
 return (0);
 }
