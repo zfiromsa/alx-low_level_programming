@@ -16,7 +16,7 @@ for (i = 3; i <= 50; i++)
 fib = (i - 1) + (i - 2);
 if (i < 49)
 {
-printf("%d ", fib);
+printf("%d, ", fib);
 }
 else
 {
