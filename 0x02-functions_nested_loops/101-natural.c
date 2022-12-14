@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-void sum_and_mult(void)
+int main(void)
 {
 int i, sum;
 
@@ -14,4 +14,5 @@ sum = sum + i;
 }
 }
 printf("%d\n", sum);
+return (0);
 }
