@@ -8,24 +8,18 @@
 
 int main(void)
 {
-int i, t1, t2, nextTerm;
+int t1, t2, nextN;
 
 t1 = 0;
 t2 = 1;
-nextTerm = t1 + t2;
+nextN = t1 + t2;
 printf("1, 2, ");
-for (i = 3; i <= 50; ++i)
+for (i = 0; i < 48; ++i)
 {
 t1 = t2;
-t2 = nextTerm;
-if (i < 49)
-{
-printf("%d, ", nextTerm);
-}
-else
-{
-printf("%d\n", nextTerm);
-}
+t2 = nextN;
+nextN = t1 + t2;
+printf("%d, ", nextN);
 }
 return (0);
 }
