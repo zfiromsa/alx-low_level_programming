@@ -28,6 +28,7 @@ else
 {
 printf("%ld", nextN);
 }
+}
 return (0);
 }
-}
+
