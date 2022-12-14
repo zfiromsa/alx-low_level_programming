@@ -1,0 +1,17 @@
+#include "main.h"
+
+void sum_and_mult(void)
+{
+int k, l, sum;
+
+k = 1024;
+sum = 0;
+for (i = 0; i < 1024)
+{
+if (i % 3 = 0 || i % 5 = 0)
+{
+sum = sum + i;
+}
+}
+printf("%d\n", sum);
+}

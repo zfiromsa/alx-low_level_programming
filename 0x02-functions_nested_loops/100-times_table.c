@@ -12,16 +12,13 @@ int i, j;
 
 for (i = 0; i <= n; i++)
 {
-for (j = 0; j <= n; j++)
-{
-if (i == n)
+if (i < n)
 {
 printf("%d, ", i);
 }
 else
 {
 printf("%d", i);
-}
 }
 }
 }
