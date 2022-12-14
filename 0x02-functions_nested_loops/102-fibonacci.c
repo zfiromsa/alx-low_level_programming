@@ -10,6 +10,8 @@ int main(void)
 {
 int i, t1, t2, nextTerm;
 
+t1 = 0;
+t2 = 1;
 nextTerm = t1 + t2;
 printf("1, 2, ");
 for (i = 3; i <= 50; ++i)
