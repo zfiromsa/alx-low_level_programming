@@ -20,7 +20,7 @@ for (i = 0; i <= 46; ++i)
 t1 = t2;
 t2 = nextN;
 nextN = t1 + t2;
-if (i > 46)
+if (i < 46)
 {
 printf("%ld, ", nextN);
 }
