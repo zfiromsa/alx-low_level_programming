@@ -7,8 +7,7 @@
 
 int main(void)
 {
-int i;
-long t1, t2, nextN;
+int i, t1, t2, nextN;
 
 t1 = 0;
 t2 = 1;
@@ -27,6 +26,6 @@ break;
 }
 }
 }
-printf("%ld\n");
+printf("%d\n");
 return (0);
 }
