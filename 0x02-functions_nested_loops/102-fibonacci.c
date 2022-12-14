@@ -14,11 +14,14 @@ printf("1, 2, ");
 for (i = 3; i <= 50; i++)
 {
 fib = (i - 1) + (i - 2);
-if (i > 49)
+if (i < 49)
 {
 printf("%d ", fib);
 }
+else
+{
 printf("%d\n", fib);
+}
 }
 return (0);
 }
