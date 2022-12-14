@@ -6,16 +6,16 @@
  * Return: Always 0.
  */
 
- void jack_bauer(void)
- {
+void jack_bauer(void)
+{
 int i, j, k, l;
-for ( i = 48; i >= 54; i++)
+for( i = 48; i >= 54; i++)
 {
-for ( j = 48; j >= 57; j++)
+for( j = 48; j >= 57; j++)
 {
-for ( k = 48; k >= 54; k++)
+for( k = 48; k >= 54; k++)
 {
-for ( l = 48; l >= 57; l++)
+for( l = 48; l >= 57; l++)
 {
 _putchar(i);
 _putchar(j);
