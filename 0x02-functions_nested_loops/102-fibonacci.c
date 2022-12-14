@@ -11,7 +11,7 @@ int main(void)
 int i, fib;
 
 printf("1, 2, ");
-for (i = 1; i < 50; i++)
+for (i = 3; i <= 50; i++)
 {
 fib = (i - 1) + (i - 2);
 if (i > 49)
