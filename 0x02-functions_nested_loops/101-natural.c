@@ -3,7 +3,7 @@
 
 void sum_and_mult(void)
 {
-int k, l, sum;
+int i, sum;
 
 k = 1024;
 sum = 0;
