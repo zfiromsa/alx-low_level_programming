@@ -16,7 +16,7 @@ for (j = 0; j <= n; j++)
 {
 if (i == n)
 {
-printf("%d," i);
+printf("%d, ", i);
 }
 else
 {
