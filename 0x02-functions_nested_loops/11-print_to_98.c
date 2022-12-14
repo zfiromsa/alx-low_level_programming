@@ -18,7 +18,7 @@ printf(", ");
 }
 else
 {
-printf("98");
+printf("98\n");
 }
 }
 }
