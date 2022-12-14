@@ -23,7 +23,7 @@ if ((t1 % 2) == 0 && (t2 % 2) == 0)
 nextN = t1 + t2;
 if (nextN < 5000000)
 {
-breack;
+break;
 }
 }
 }
