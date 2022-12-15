@@ -4,7 +4,7 @@
  *
  */
 
-int print_factor(void)
+int main(void)
 {
 int i, factor;
 
