@@ -3,8 +3,9 @@
 /**
  * mul - multiplies two integers and
  * return the resualt return the resualt.
- * param a
- * param b
+ * @a: First member
+ * @b: Second member
+ *
  * return: Alwayas(a * b).
  */
 
