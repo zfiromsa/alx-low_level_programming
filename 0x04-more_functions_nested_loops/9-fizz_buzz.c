@@ -18,21 +18,17 @@ printf("%d ", i);
 }
 else if ((i % 3 == 0) && (i % 5 == 0))
 {
-printf("fizz_buzz ");
+printf("FizzBuzz ");
 }
-else if (i == 100)
+else if (i % 5 == 0 )
 {
-printf("fizz_buzz ");
-}
-else if (i % 5 == 0)
-{
-printf("fizz_buzz ");
+printf("Buzz ");
 }
 else
 {
-printf("fizz_buzz ");
+printf("Fizz ");
 }
 }
-printf("100\n");
+printf("\n");
 return (0);
 }
