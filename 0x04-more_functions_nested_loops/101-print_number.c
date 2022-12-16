@@ -9,9 +9,10 @@
 void print_number(int n)
 {
 char m;
+
 if (isdigit(n))
 {
-m = n - 0;
+m = n - '0';
 _putchar(m);
 }
 }
