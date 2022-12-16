@@ -5,7 +5,7 @@
  * return the resualt return the resualt.
  * param a
  * param b
- * return (a * b).
+ * return: Alwayas(a * b).
  */
 
 int mul(int a, int b)
