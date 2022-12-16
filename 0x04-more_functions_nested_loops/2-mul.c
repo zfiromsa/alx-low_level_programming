@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * mul - multiplies two integers and
- * return the resualt return the resualt.
+ * mul - it multiplies two integers.
  * @a: First member
  * @b: Second member
  *

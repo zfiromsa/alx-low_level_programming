@@ -16,5 +16,5 @@ if (i != 50 && i != 52)
 _putchar(i);
 }
 }
-_putchar('\n');
+_putchar(10);
 }
