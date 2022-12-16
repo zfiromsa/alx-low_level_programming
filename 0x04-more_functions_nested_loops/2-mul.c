@@ -6,10 +6,13 @@
  * @a: First member
  * @b: Second member
  *
- * return: Alwayas(a * b).
+ * return: Alwayas mult.
  */
 
 int mul(int a, int b)
 {
-return (a * b);
+int mult;
+
+mult = a * b;
+return (mult);
 }
