@@ -28,7 +28,7 @@ else if (i % 5 == 0)
 {
 printf("fizz_buzz ");
 }
-else (i % 3 == 0)
+else
 {
 printf("fizz_buzz ");
 }
