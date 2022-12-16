@@ -17,5 +17,8 @@ for (b = 1; b <= n; b++)
 _putchar('_');
 }
 }
+else
+{
+}
 _putchar('\n');
 }
