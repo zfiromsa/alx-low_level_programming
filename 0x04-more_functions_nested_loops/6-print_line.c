@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * void print_line - draws a straight line in the terminal.
- * param n
+ * print_line - draws a straight line in the terminal.
+ * @n: paramiter.
  *
- * Return void
+ * Return: Alwas void.
  */
  
 void print_line(int n)
