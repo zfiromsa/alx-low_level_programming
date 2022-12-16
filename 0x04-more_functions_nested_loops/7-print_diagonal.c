@@ -1,9 +1,8 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * print_diagonal - prints a square, followed by a new line.
- * param n
- * Return: void
+ * @n: paramiter.
+ * Return: void.
  */
 
 void print_diagonal(int n)
