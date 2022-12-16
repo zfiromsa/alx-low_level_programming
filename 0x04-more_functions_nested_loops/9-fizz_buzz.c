@@ -24,11 +24,11 @@ else if (i % 5 == 0 )
 {
 printf("Buzz ");
 }
-else
+else if (i % 3 == 0)
 {
 printf("Fizz ");
 }
 }
-printf("\n");
+printf("Buzz\n");
 return (0);
 }
