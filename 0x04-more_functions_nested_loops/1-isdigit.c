@@ -3,8 +3,8 @@
 /**
  * _isdigit - checks for a digit (0 through 9).
  * @c: paramiter.
- * Returns 1 if c is a digit.
- * Returns 0 otherwise.
+ *
+ * Returns 0 or 1.
  */
 
 int _isdigit(int c)
