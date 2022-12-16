@@ -6,12 +6,13 @@
 
 int main(void)
 {
-unsigned long factor, i;
+long long factor, i, G;
 
+G = 612852475143ULL;
 factor =0;
-for (i = 0; i < 612852475143; i++)
+for (i = 0; i < G; i++)
 {
-if ((612852475143 % i) == 0)
+if ((G % i) == 0)
 {
 factor = i;
 }
@@ -20,6 +21,6 @@ else
 continue;
 }
 }
-printf("%u", factor);
+printf("%d", factor);
 return (0);
 }
