@@ -15,10 +15,6 @@ if (i != 50 && i != 52)
 {
 _putchar(i);
 }
-else
-{
- 
-}
 }
 _putchar('\n');
 }
