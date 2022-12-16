@@ -1,5 +1,4 @@
-#include "main.h"
-#include <stdio.h> 
+#include "main.h" 
 /**
  * print_triangle -prints a triangle, followed \n
  * 
@@ -21,12 +20,12 @@ for (i = 1; i < = size; i++)
 {
 _putchar(35);
 }
-_putchar('\n');
+_putchar("\n");
 }
 }
 else
 {
-_putchar('\n');
+_putchar("\n");
 }
 }
 
