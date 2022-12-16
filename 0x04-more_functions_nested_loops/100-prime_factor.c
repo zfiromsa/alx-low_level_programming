@@ -6,21 +6,16 @@
 
 int main(void)
 {
-int factor, i, g;
-printf("go");
-g = 613;
-factor =0;
-for (i = 0; i < g; i++)
+unsigned long long int num, i;
+
+num = 612852475143;
+for (i = 1; i < num; i++)
 {
-if ((g % i) == 0)
+if ((num % i) == 0)
 {
-printf("go1");
-factor = i;
-printf("go2");
+continue;
 }
 }
-printf("go3");
-printf("%d", factor);
-printf("go4");
+printf("%ul", i);
 return (0);
 }
