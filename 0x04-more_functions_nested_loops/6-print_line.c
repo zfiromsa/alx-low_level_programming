@@ -1,8 +1,8 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * void print_line - draws a straight line in the terminal.
  * param n
+ *
  * Return void
  */
  
@@ -16,9 +16,6 @@ for (b = 1; b <= n; b++)
 {
 _putchar('_');
 }
-}
-else
-{
 }
 _putchar('\n');
 }
