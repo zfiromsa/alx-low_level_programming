@@ -8,8 +8,8 @@
 
 void print_number(int n)
 {
-int m;
+char m;
 
-m = n + '0';
+m = n;
 _putchar(m);
 }
