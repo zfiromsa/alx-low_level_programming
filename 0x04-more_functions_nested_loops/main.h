@@ -14,4 +14,5 @@ void fizz_buzz(int in);
 int _putchar(char c);
 void print_triangle(int size);
 void fizz_buzz(int in);
+void print_number(int n);
 #endif  
