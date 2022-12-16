@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _isdigit - checks for a digit (0 through 9).
- *
+ * @c: paramiter.
  * Returns 1 if c is a digit.
  * Returns 0 otherwise.
  */
