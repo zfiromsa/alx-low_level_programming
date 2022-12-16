@@ -20,12 +20,12 @@ for (i = 1; i < = size; i++)
 {
 _putchar(35);
 }
-_putchar("\n");
+//_putchar("\n");
 }
 }
 else
 {
-_putchar("\n");
+//_putchar("\n");
 }
 }
 
