@@ -3,10 +3,11 @@
 /**
  * Fizz_buzz - it is a program that prints the numbers
  * from 1 to 100, followed by a new line
- * Return: void
+ *
+ * Return: Always 0.
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 int i;
 
@@ -33,4 +34,5 @@ else ((i % 3) = 0)
 printf("fizz_buzz");
 }
 }
+return (0);
 }
