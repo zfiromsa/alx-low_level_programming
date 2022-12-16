@@ -16,5 +16,5 @@ if (i != 50 && i != 52)
 _putchar(i);
 }
 }
-printf("\n");
+_putchar("\n");
 }
