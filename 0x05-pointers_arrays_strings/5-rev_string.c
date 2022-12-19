@@ -12,13 +12,13 @@ void rev_string(char *s)
 char *rev;
 int len, i, j;
 
-len = strlen(s);
+len = strlen(s); 
 i = 0;
-rev = (char*)malloc(sizeof(s));
+rev = (char *)malloc(sizeof(s));
 while (i <= len)
 {
 j = len - i;
-rev[i] = s[j];
+rev[i] = s[i];
 i++;
 }
 s = rev;
