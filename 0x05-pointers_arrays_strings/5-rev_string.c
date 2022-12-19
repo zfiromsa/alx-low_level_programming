@@ -13,13 +13,14 @@ char *rev;
 int len, i, j;
 
 len = strlen(s); 
-i = 0;
 rev = (char *)malloc(sizeof(s));
-while (i <= len)
+for(i = 0; i >= len; i++)
 {
-j = len - i;
-rev[i] = s[j];
-i++;
+while (len >= 0)
+{
+rev[i] = s[len];
+len--;
+}
 }
 s = rev;
 }
