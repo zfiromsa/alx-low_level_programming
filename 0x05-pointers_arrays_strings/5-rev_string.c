@@ -13,7 +13,6 @@ int len, i, j;
 
 len = strlen(s);
 i = 0;
-rev = s;
 rev = (char*)malloc(sizeof(s));
 while (i <= len)
 {
