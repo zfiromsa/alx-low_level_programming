@@ -14,9 +14,9 @@ int len, i, j;
 len = strlen(s) - 1;
 i = 0;
 rev = s;
-while (i < len)
+while (i <= len)
 {
-j = len - i;
+j = len;
 rev[i] = s[j];
 i++;
 }
