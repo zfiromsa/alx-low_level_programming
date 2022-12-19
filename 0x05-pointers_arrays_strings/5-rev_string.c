@@ -17,11 +17,10 @@ while (s[len1] != '\0')
 len1++;
 }
 len = len1 - 1;
-while (i < len)
+for (i = 0; i < len; i--)
 {
 tmp = s[i];
 s[i] = s[len];
 s[len] = tmp;
-len--;
 }
 }
