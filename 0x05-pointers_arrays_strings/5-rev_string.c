@@ -16,7 +16,7 @@ i = 0;
 rev = s;
 while (i <= len)
 {
-j = len;
+j = len - i;
 rev[i] = s[j];
 i++;
 }
