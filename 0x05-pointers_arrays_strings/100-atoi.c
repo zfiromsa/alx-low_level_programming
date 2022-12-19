@@ -12,7 +12,7 @@ int _atoi(char *s)
 int i, len, the_number;
 
 len = strlen(s);
-for (i = 0; i <= len; i++)
+for (i = len; i <= 0; i--)
 {
 if ((i >= 48 && i <= 58) || (i == 43) || (i == 45))
 {
