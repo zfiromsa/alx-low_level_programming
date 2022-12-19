@@ -22,5 +22,5 @@ rev[i] = s[len];
 len--;
 }
 }
-*s = &rev;
+s = rev;
 }
