@@ -13,7 +13,7 @@ char *rev;
 int len, i;
 
 len = strlen(s);
-rev = (char *)malloc(sizeof(s));
+rev = s;
 for (i = 0; i >= len; i++)
 {
 while (len >= 0)
