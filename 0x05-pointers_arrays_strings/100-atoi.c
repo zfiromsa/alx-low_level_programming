@@ -16,7 +16,7 @@ for (i = 0; i <= len; i++)
 {
 if ((i >= 48 && i <= 58) || (i == 43) || (i == 45))
 {
-*the_number = i;
+the_number = 'i' + 0;
 }
 }
 return (the_number);
