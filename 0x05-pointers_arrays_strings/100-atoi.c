@@ -9,10 +9,10 @@
 
 int _atoi(char *s)
 {
-int len, the_number;
+int i, len, the_number;
 
 len = strlen(s);
-for (int i = 0; i <= len; i++)
+for (i = 0; i <= len; i++)
 {
 if ((i >= 48 && i <= 58) || (i == 43) || (i == 45))
 {
