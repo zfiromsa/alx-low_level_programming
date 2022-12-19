@@ -1,3 +1,22 @@
-
+#include "main.h"
+/**
+ * _atoi - that convert a string to an integer.
+ *
+ * @s: the string to be converted.
+ *  Return: Always the_number.
+ */
 
 int _atoi(char *s)
+{
+int len, the_number;
+
+len = strlen(s);
+for (int i = 0; i <= len; i++)
+{
+if ((i >= 48 && i <= 58) || (i == 43) || (i == 45))
+{
+the_number = i;
+}
+}
+return (the_number);
+}
