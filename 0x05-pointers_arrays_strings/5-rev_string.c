@@ -9,7 +9,7 @@
  */
 void rev_string(char *s)
 {
-char *rev;
+char *tmp;
 int len, len1, i;
 
 while (s[len1] != '\0')
@@ -21,9 +21,10 @@ for (i = 0; i < len; i++)
 {
 while (i < len)
 {
-rev[i] = s[len];
+tmp = s[i];
+s[i] = s[len]
+s[len] = tmp
 len--;
 }
 }
-s = rev;
 }
