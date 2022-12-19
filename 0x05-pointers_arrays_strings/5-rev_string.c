@@ -14,7 +14,7 @@ int len, i;
 
 len = strlen(s); 
 rev = (char *)malloc(sizeof(s));
-for(i = 0; i >= len; i++)
+for (i = 0; i >= len; i++)
 {
 while (len >= 0)
 {
