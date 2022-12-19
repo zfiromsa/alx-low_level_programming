@@ -14,7 +14,7 @@ int i, len, the_number;
 len = strlen(s);
 for (i = 0; i <= len; i++)
 {
-if ((i >= '48' && i <= '58') || (i == '43') || (i == '45'))
+if ((s[i] >= '48' && s[i] <= '58') || (s[i] == '43') || (s[i] == '45'))
 {
 the_number[i] = s[i] + 0;
 }
