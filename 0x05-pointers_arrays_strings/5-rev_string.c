@@ -16,9 +16,9 @@ len = strlen(s) - 1;
 rev = s;
 for (i = 0; i >= len; i++)
 {
-while (len >= 0)
+while ()
 {
-rev[i] = s[len];
+rev[i] = s[i];
 len--;
 }
 }
