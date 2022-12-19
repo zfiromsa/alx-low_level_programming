@@ -18,7 +18,7 @@ rev = (char *)malloc(sizeof(s));
 while (i <= len)
 {
 j = len - i;
-rev[i] = s[i];
+rev[i] = s[j];
 i++;
 }
 s = rev;
