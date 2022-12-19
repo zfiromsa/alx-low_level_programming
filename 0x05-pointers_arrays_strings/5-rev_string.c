@@ -10,13 +10,16 @@
 void rev_string(char *s)
 {
 char *rev;
-int len, i;
+int len, len1, i;
 
-rev = s;
-len = strlen(rev) - 1;
-for (i = 0; i <= len; i++)
+while (s[len1] != '\0')
 {
-while (i <= len)
+len1++;
+}
+len = len1 - 1;
+for (i = 0; i < len; i++)
+{
+while (i < len)
 {
 rev[i] = s[len];
 len--;
