@@ -18,7 +18,7 @@ i++;
 }
 k = 0;
 j = i - 1;
-while(k < j)
+while (k < j)
 {
 tmp = s[k];
 s[k] = s[j];
