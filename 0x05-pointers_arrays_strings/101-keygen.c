@@ -11,7 +11,6 @@ int main ()
 {
 time_t t;
 
-srand((unsigned) time(&t));
-printf("%d\n", rand() % 5);
+printf("%d\n", rand());
 return(0);
 }
