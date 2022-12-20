@@ -19,7 +19,7 @@ pass = (rand() % 180);
 sum += pass;
 printf("%c", pass);
 }
-printf("%c", 3233 - sum)
+printf("%c", 3233 - sum);
 return (0);
 }
 
