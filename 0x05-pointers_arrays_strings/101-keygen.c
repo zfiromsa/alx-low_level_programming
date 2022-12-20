@@ -8,9 +8,7 @@
  */
 
 int main ()
-{
-time_t t;
-
+{`
 printf("%d\n", rand());
 return(0);
 }
