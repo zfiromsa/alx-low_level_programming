@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+//#include "main.h"
 #include <string.h>
 #include <stdlib.h>
 /**
@@ -10,12 +11,12 @@
 
 char *_strcat(char *dest, char *src)
 {
-int len;
+//int len;
 
-len = strlen(dest) + strlen(src) + 1;
-dest = (char*) malloc(len * sizeof(char));
+//len = strlen(dest) + strlen(src) - 1;
+//dest = (char*) malloc(*sizeof(char));
 strcat(dest, src);
 
-free(dest);
+//free(dest);
 return (dest);
 }
