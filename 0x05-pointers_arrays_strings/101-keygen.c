@@ -8,7 +8,7 @@
 int main(void)
 {	
 	srand((time(NULL) * getpid()));
- 
+    int i = 0;
     char *numbers = "0123456789";
     int numbers_length = strlen(numbers);
 	char *letter = "abcdefghijklmnoqprstuvwyzx";
@@ -17,10 +17,10 @@ int main(void)
     int Letter_length = strlen(LETTER);
 	char *symbols = "!@#$^&*?";
     char symbols_length = strlen(symbols);
-	char password[5];  
+	char password[8];  
 
 	
-	for (int i = 0; i < 5; i++) {
+	while (i < 8) {
 
         int char_type = rand() % 4;
 		if (char_type == 1) {
@@ -35,8 +35,9 @@ int main(void)
 		else {
 			password[i] = letter[rand() % symbols_length];
 		}
+		i++;
 	}
-    password[5] = '\0';
+    password[8] = '\0';
     printf("%s",password);
     return (0);
 }
