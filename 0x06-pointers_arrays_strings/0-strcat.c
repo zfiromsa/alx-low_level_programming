@@ -12,9 +12,9 @@ char *_strcat(char *dest, char *src)
 {
 int len;
 
-len = strlen(dest) + strlen(src);
-dest = (char*)malloc(len * sizeof(char));
+len = strlen (dest) + strlen (src);
+dest = (char*)malloc (len * sizeof(char));
 strcat (dest, src);
-free(dest);
+free (dest);
 return (dest);
 }
