@@ -13,6 +13,5 @@ for(i=0;i<size;i++)
 pass = rand()%size;
 printf("%c", pass);
 }
-//printf("%c", )
 return (0);
 }
