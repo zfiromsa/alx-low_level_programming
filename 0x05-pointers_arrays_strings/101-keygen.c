@@ -4,8 +4,9 @@
 
 int main(void)
 {
-int i, pass;
+int i, pass, size;
 
+size = 10;
 srand(time(NULL));
 for(i=0;i<size;i++)
 {
