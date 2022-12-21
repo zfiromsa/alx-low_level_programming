@@ -1,4 +1,3 @@
-#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -11,7 +10,6 @@ int main(void)
 {	
 	int i;
 	i = 0;
-	srand((time(NULL) * getpid()));
     char *numbers = "0123456789";
     int numbers_length = strlen(numbers);
 	char *letter = "abcdefghijklmnoqprstuvwyzx";
@@ -22,7 +20,7 @@ int main(void)
     char symbols_length = strlen(symbols);
 	char password[8];  
 
-	
+	srand(time(NULL) * getpid());
 	while (i < 8) {
 
         int char_type = rand() % 4;
