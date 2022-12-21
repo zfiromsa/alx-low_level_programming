@@ -1,14 +1,16 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
 
-int main ()
+#define size 10
+
+int main(void)
 {
-printf("%d\n", rand());
-return(0);
+srand(time(NULL)); // randomize seed
+
+for(i=0;i<size;i++)
+{
+pass = rand()%size;
+printf("%d", pass);
+}
+return (0);
 }
