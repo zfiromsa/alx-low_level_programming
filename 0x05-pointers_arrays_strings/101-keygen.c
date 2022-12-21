@@ -5,10 +5,13 @@
 #include <unistd.h>
 #include <string.h>
 
+
+
 int main(void)
 {	
+	int i;
+	i = 0;
 	srand((time(NULL) * getpid()));
-    int i = 0;
     char *numbers = "0123456789";
     int numbers_length = strlen(numbers);
 	char *letter = "abcdefghijklmnoqprstuvwyzx";
