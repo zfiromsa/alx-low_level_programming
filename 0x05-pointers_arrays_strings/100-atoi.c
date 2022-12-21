@@ -1,23 +1,13 @@
-#include "main.h"
-#include <string.h>
-/**
- * _atoi - that convert a string to an integer.
- *
- * @s: the string to be converted.
- *  Return: Always the_number.
- */
+#include <stdlib.h>
+#include <time.h>
 
-int _atoi(char *s)
-{
-int i, len, the_number;
+#define size 10
 
-len = strlen(s);
-for (i = 0; i <= len; i++)
+int main(void)
 {
-if ((i >= 48 && i <= 58) || (i == 43) || (i == 45))
-{
-the_number = i;
-}
-}
-return (the_number);
+srand(time(NULL)); // randomize seed
+
+for(i=0;i<size;i++)
+    Arr[i] = rand()%size;
+return (0);
 }
