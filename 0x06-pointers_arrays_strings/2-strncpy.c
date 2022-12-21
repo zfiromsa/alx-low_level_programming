@@ -5,8 +5,6 @@
  * @dest: first parm.
  * @src: second parm.
  * @n: third parm.
- *
- * Return: dest.
  */
 
 char *_strncpy(char *dest, char *src, int n)
