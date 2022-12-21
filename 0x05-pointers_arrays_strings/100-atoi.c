@@ -8,6 +8,9 @@ int main(void)
 srand(time(NULL)); // randomize seed
 
 for(i=0;i<size;i++)
-    Arr[i] = rand()%size;
+{
+pass = rand()%size;
+printf("%d", pass);
+}
 return (0);
 }
