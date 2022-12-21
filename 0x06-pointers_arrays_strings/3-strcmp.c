@@ -1,11 +1,10 @@
 #include "main.h"
 #include <string.h>
-#include <stdio.h>
 /**
  * _strcat - compares two strings.
- * @s2: first parm
- * @s1: second parm
- * Return: res
+ * @s2: first parm.
+ * @s1: second parm.
+ * Return: Always res.
  */
 
 int _strcmp(char *s1, char *s2)
