@@ -1,12 +1,12 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
-#define size 10
-
 int main(void)
 {
-srand(time(NULL)); // randomize seed
+int i, pass;
 
+srand(time(NULL));
 for(i=0;i<size;i++)
 {
 pass = rand()%size;
