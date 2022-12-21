@@ -13,7 +13,7 @@ char *_strcat(char *dest, char *src)
 int len;
 
 len = strlen (dest) + strlen (src);
-dest = (char*)malloc (len * sizeof(char));
+dest = (char*) malloc (len * sizeof (char));
 strcat (dest, src);
 free (dest);
 return (dest);
