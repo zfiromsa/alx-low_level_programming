@@ -12,7 +12,7 @@ char *_strcat(char *dest, char *src)
 {
 int len;
 
-len = strlen(dest) + strlen(src);
+len = strlen(dest) + strlen(src) - 1;
 dest = (char*) malloc(len * sizeof(char));
 strcat(dest, src);
 
