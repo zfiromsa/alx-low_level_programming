@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * _strncat - compares two strings.
+ * _strcat - compares two strings.
  * @s2: first parm
  * @s1: second parm
  * Return: res
