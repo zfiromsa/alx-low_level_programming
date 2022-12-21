@@ -11,7 +11,8 @@ srand(time(NULL));
 for(i=0;i<size;i++)
 {
 pass = rand()%size;
-printf("%d", pass);
+printf("%c", pass);
 }
+//printf("%c", )
 return (0);
 }
