@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * main - capitalizes all words of a string.
+ * cap_string - capitalizes all words of a string.
  * @s: first par.
  *
  * Return: Always s.

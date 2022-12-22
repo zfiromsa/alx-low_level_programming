@@ -1,12 +1,19 @@
 #include "main.h"
-#include <string.h>
+/**
+ * leet - encodes a string into 1337
+ * 
+ * @s: param
+ * Return: Always s.
+ */
 
 char *leet(char *s)
 {
 int i, len;
 
 i = 0;
-len = strlen(s);
+len = 0;
+while (s[len])
+{
 while (i < len)
 {
 if ((s[i] == 'a') || (s[i] == 'A'))
@@ -34,6 +41,8 @@ else
 s[i] = s[i];
 }
 i++;
+}
+len++;
 }
 return (s);
 }
