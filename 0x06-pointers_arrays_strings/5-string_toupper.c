@@ -10,7 +10,7 @@
 
 char *string_toupper(char *s)
 {
-int len, i, j;
+int len, i;
 
 i = 0;
 len = strlen(s) - 1;
