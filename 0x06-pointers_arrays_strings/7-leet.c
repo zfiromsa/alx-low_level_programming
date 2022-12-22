@@ -6,43 +6,24 @@
  * Return: Always s.
  */
 
-char *leet(char *s)
+char *leet(char *str)
 {
-int i, len;
+char _char[5] = {'A', 'E', 'O', 'T', 'L'};
+char _No[5] = {'4', '3', '0', '7', 'l'};
+int i = 0, j, k = 5;
 
-i = 0;
-len = 0;
-while (s[len])
+while (str[i])
 {
-while (i < len)
+j = 0;
+while (j < k)
 {
-if ((s[i] == 'a') || (s[i] == 'A'))
+if (str[i] == _char[j] || str[i] - 32 == _char[j])
 {
-s[i] = '4';
+str[i] = _No[j];
 }
-else if ((s[i] == 'e') || (s[i] == 'E'))
-{
-s[i] = '3';
-}
-else if ((s[i] == 'o') || (s[i] == 'O'))
-{
-s[i] = '0';
-}
-else if ((s[i] == 't') || (s[i] == 'T'))
-{
-s[i] = '7';
-}
-else if ((s[i] == 'l') , (s[i] == 'L'))
-{
-s[i] = '1';
-}
-else
-{
-s[i] = s[i];
+j++;
 }
 i++;
 }
-len++;
-}
-return (s);
+return (str);
 }
