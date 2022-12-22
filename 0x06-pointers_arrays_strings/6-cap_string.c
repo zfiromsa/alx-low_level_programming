@@ -10,7 +10,7 @@ i = 0;
 a = 0;
 len = strlen(s);
 char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', '{', '}'};
-while (x[a])
+while (s[a])
 {
 while (i <= len)
 {
