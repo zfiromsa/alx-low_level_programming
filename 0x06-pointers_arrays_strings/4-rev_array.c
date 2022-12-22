@@ -1,4 +1,6 @@
-#include "main.h"
+//#include "main.h"
+#include <stdio.h>
+#include <string.h>
 /**
  * reverse_array - reverses the content
  * @a: the string to be reverses
@@ -8,30 +10,55 @@
 
 void reverse_array(int *a, int n)
 {
-int i, j;
-int rev[n];
+int temp;
+    for(int i = 0; i < n/2; i++)
+    {
+        temp = a[i];
+        a[i] = a[n-i-1];
+        a[n-i-1] = temp;
+    }
+}
 
-i = 0;
-rev = a;
-if (n <= 1)
+
+
+
+
+
+
+
+
+
+
+
+
+void print_array(int *a, int n)
 {
-rev = a;
+    int i;
+
+    i = 0;
+    while (i < n)
+    {
+        if (i != 0)
+        {
+            printf(", ");
+        }
+        printf("%d", a[i]);
+        i++;
+    }
+    printf("\n");
 }
-else
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-while (i <= n)
-{
-if (i < n)
-{
-j = n - i;
-rev[i] = a[j];
-}
-else
-{
-rev[i] = a[i];
-}
-i++;
-}
-}
-a = rev;
+    int a[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 98, 1024, 1337};
+
+    print_array(a, sizeof(a) / sizeof(int));
+    reverse_array(a, sizeof(a) / sizeof(int));
+    print_array(a, sizeof(a) / sizeof(int));
+    return (0);
 }
