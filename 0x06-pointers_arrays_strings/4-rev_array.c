@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * reverse_array - reverses the content
- * @a: the string to be reverses
- * @n: is the number of elements of the array
+ * reverse_array - rev the content of an ary of integers.
+ * @a: an array of integers.
+ * @n: the number of elements to swap.
  *
- * Return: noting
+ * Return: nothing.
  */
 
 void reverse_array(int *a, int n)
