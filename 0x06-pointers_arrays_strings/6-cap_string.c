@@ -1,30 +1,26 @@
-#include <stdio.h>
-#include <ctype.h>
 #include "main.h"
+#include <string.h>
+#include <stdio.h>
 
-
-char *cap_string(char *str);
+char *cap_string(char *s)
 {
-char *up;
-int len, i, j;
+int a, i;
 
-len = strlen(str) - 1;
 i = 0;
-up = str;
+a = 0;
+len = strlen(s);
+char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', '{', '}'};
+while (x[a])
+{
 while (i <= len)
 {
-if (str[i] == (',' || ';' || '' || '.' || '!' || '?' || '"' || '('|| ')'|| '{' || '}'))
+if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
 {
-if ( str[i + 1] == ' ')
-{
-up[i + 2] = toupper(str[i + 2]);
-}
-}
-else
-{
-up[i + 1] = str[i + 1];
+s[a] = s[a] - 32;
 }
 i++;
 }
-return (up);
+a++;
+}
+return (s);
 }
