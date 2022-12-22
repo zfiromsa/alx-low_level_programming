@@ -7,7 +7,7 @@
  * Return: Always str.
  */
 
-char *string_toupper(char *s)
+char *string_toupper(char *)
 {
 int len, i, j;
 
