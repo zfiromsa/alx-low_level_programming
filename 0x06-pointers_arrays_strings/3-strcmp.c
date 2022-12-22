@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strcat - compares two strings.
+ * _strcmp - compares two strings.
  * @s2: first parm.
  * @s1: second parm.
  * Return: Always res.
