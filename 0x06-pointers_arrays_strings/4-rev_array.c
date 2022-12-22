@@ -14,10 +14,11 @@ int i, k;
 k = n / 2;
 for (i = 0; i < k; i++)
 {
-int temp;
+int temp, j;
 
+j = n - i - 1;
 temp = a[i];
-a[i] = a[n-i-1];
+a[i] = a[j];
 a[n-i-1] = temp;
 }
 }
