@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string>
+#include <string.h>
 #include <stdio.h>
 
 char *leet(char *s)
@@ -8,35 +8,33 @@ int i, len;
 
 i = 0;
 len = strlen(s);
-char *str = malloc(len - 1);
 while (i < len)
 {
-if (s[i] == ('a' || 'A'))
+if ((s[i] == 'a') || (s[i] == 'A'))
 {
-str[i] = '4';
+s[i] = '4';
 }
-else if (s[i] == ('e' || 'E'))
+else if ((s[i] == 'e') || (s[i] == 'E'))
 {
-str[i] = '3';
+s[i] = '3';
 }
-else if (s[i] == ('o' || 'O'))
+else if ((s[i] == 'o') || (s[i] == 'O'))
 {
-str[i] = '0';
+s[i] = '0';
 }
-else if (s[i] == ('t' || 'T'))
+else if ((s[i] == 't') || (s[i] == 'T'))
 {
-str[i] = '7';
+s[i] = '7';
 }
-else if (s[i] == ('l' || 'L'))
+else if ((s[i] == 'l') , (s[i] == 'L'))
 {
-str[i] = '1';
+s[i] = '1';
 }
 else
 {
-str[i] = s[i];
+s[i] = s[i];
 }
 i++;
 }
-free(str);
-return (str);
+return (s);
 }
