@@ -28,6 +28,10 @@ else if(str[i] >= 110 && str[i] <= 122)
 {
 str[i] = str[i] - 13;
 }
+else
+{
+str[i] = str[i] + o;
+}
 i++;
 }
 return (str);
