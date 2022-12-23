@@ -30,7 +30,7 @@ str[i] = str[i] - 13;
 }
 else
 {
-str[i] = str[i] + o;
+str[i] = str[i];
 }
 i++;
 }
