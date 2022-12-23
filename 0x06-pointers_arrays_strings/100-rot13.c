@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * leet - encodes a string into 1337
+ * rot13 - encodes a string into 1337.
  *
  * @str: param
  * Return: Always str.
@@ -14,16 +14,15 @@ while (str[i])
 {
 if (str[i] >= 65 && str[i] <= 77)
 {
-str[i] = str[i] + 13; 
+str[i] = str[i] + 13;
 }
 else if(str[i] >= 78 && str[i] <= 90)
 {
 str[i] = str[i] - 13;
 }
-
 else if (str[i] >= 97 && str[i] <= 109)
 {
-str[i] = str[i] + 13; 
+str[i] = str[i] + 13;
 }
 else if(str[i] >= 110 && str[i] <= 122)
 {
