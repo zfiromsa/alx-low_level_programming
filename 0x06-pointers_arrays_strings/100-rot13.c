@@ -2,7 +2,7 @@
 /**
  * rot13 - encodes a string into 1337.
  *
- * @str: param
+ * @str: param.
  * Return: Always str.
  */
 
@@ -12,19 +12,11 @@ int i = 0;
 
 while (str[i])
 {
-if (str[i] >= 65 && str[i] <= 77)
+if ((str[i] >= 65 && str[i] <= 77) || (str[i] >= 97 && str[i] <= 109))
 {
 str[i] = str[i] + 13;
 }
-else if(str[i] >= 78 && str[i] <= 90)
-{
-str[i] = str[i] - 13;
-}
-else if (str[i] >= 97 && str[i] <= 109)
-{
-str[i] = str[i] + 13;
-}
-else if(str[i] >= 110 && str[i] <= 122)
+else if((str[i] >= 78 && str[i] <= 90) || (str[i] >= 110 && str[i] <= 122))
 {
 str[i] = str[i] - 13;
 }
