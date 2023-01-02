@@ -1,21 +1,17 @@
+#include <string.h>
 #include "main.h"
 /**
- * _memcpy - func that fills memory with a constant byte 
+ * _memcpy - func that fills memory with a constant byte
  * @src: first parm
  * @dest: second parm
  * @n: third parm
- * return: char
+ * return: ret
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-int i;
+char *ret;
 
-i = 0;
-while (i < n)
-{
-dest[i] = src[i];
-i++;
-}
-return (memcpy(dest, src, n));
+ret = memcpy(dest, src, n);
+return (ret);
 }

@@ -1,14 +1,16 @@
-#include <stdio.h>
 #include <string.h>
 #include "main.h"
 /**
  * _strpbrk - func that search a str for any of a set of bytes.
  * @s: first parm
  * @accept: second parm
- * return: len
+ * return: ret
  */
 
 char *_strpbrk(char *s, char *accept)
 {
-return (strpbrk(s,accept));
+char *ret;
+
+ret = strpbrk(s,accept);
+return (ret);
 }

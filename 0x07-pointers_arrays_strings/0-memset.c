@@ -5,7 +5,7 @@
  * @s: first parm
  * @b: second parm
  * @n: third parm
- * return: S
+ * return: ret
  */
 
 char *_memset(char *s, char b, unsigned int n)
