@@ -18,11 +18,14 @@ for (i = 0; i < size; i++)
 {
 for (j = 0; j < size; j++)
 {
-sum1 += a[i][j];
+if (i == j)
+{
+sum1 = sum1 + a[i][j];
+}
 }
 for (h = (size - 1); h > 0; h--)
 {
-sum2 += a[i][h];
+sum2 = sum2 + a[i][h];
 }
 }
 puts(sum1);
