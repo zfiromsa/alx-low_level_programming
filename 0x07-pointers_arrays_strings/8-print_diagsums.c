@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * print_diagsums: prints the sum of the two diagonals
  * a: first parm
@@ -25,5 +24,6 @@ for (h = (size - 1); h > 0; h--)
 sum2 += a[i][h];
 }
 }
-printf("%d, %d ", &sum1, &sum2);
+puts(sum1);
+puts(sum2);
 }
