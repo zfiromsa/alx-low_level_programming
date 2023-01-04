@@ -3,28 +3,25 @@
  * _strlen_recursion - returns the length of a string.
  *
  * @s: first parm
- * Return: Always len
+ * Return: Always i
  */
 
 int _strlen_recursion(char *s)
 {
-int len;
+int i;
 
-len = 0;
+i = 0;
 if (*s)
 {
 if (*s)
 {
-len++;
+i++;
 _strlen_recursion(s + 1);
-}
-else
-{
-returns (len);
+return (i);
 }
 }
 else
 {
-returns (len);
+return (i);
 }
 }
