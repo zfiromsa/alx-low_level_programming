@@ -22,6 +22,6 @@ returns (len);
 }
 else
 {
-returns ()
+returns (0);
 }
 }
