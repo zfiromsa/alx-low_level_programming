@@ -15,13 +15,12 @@ if (*s)
 {
 if (*s)
 {
-_strlen_recursion(s + 1);
 len++;
-}
+_strlen_recursion(s + 1);
 returns (len);
 }
 else
 {
-returns (0);
+returns (len);
 }
 }
