@@ -14,7 +14,9 @@ int len;
 len = strlen(s) - 1;
 if (len <= 1)
 {
-_putchar(s + len);
+char k;
+k = (s + len);
+_putchar(k);
 len--;
 _puts_recursion(s + len);
 }
