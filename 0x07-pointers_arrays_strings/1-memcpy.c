@@ -5,7 +5,7 @@
  * @src: first parm
  * @dest: second parm
  * @n: third parm
- * return: ret
+ * Return: ret
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)

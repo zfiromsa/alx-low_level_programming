@@ -1,10 +1,10 @@
 #include <string.h>
 #include "main.h"
 /**
- * _strspn - func that gets the length of a prefix substring. 
+ * _strspn - func that gets the length of a prefix substring.
  * @s: first parm
  * @accept: second parm
- * return: strspn(s, accept)
+ * Return: strspn(s, accept)
  */
 
 unsigned int _strspn(char *s, char *accept)

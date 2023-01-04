@@ -1,10 +1,10 @@
 #include <string.h>
 #include "main.h"
 /**
- * _strchr - func that locates a character in a string. 
+ * _strchr - func that locates a character in a string.
  * @s: first parm
  * @c: second parm
- * return: ret
+ * Return: ret
  */
 
 char *_strchr(char *s, char c)

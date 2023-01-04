@@ -5,7 +5,7 @@
  * @haystack: first parm
  * @needle: second parm
  *
- * return: ret
+ * Return: ret
  */
 
 char *_strstr(char *haystack, char *needle)

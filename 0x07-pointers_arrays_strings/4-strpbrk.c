@@ -4,7 +4,7 @@
  * _strpbrk - func that search a str for any of a set of bytes.
  * @s: first parm
  * @accept: second parm
- * return: ret
+ * Return: ret
  */
 
 char *_strpbrk(char *s, char *accept)
