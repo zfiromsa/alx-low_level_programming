@@ -12,10 +12,7 @@ if (n >= 0)
 {
 if (n == 1 || n == 0)
 {
-int i;
-
-i = 1;
-factorial (n) = i;
+return (1);
 }
 else
 {
