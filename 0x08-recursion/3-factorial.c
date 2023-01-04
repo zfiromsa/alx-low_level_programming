@@ -3,7 +3,7 @@
  * factorial - returns the factorial of a given number.
  *
  * @n: first parm
- * Return: Always fact
+ * Return: Always factorial or -1
  */
 
 int factorial (int n)
@@ -20,10 +20,8 @@ return (factorial (n) * factorial (n - 1));
 }
 return (factorial (n));
 }
-else if (n < 0)
+else
 {
 return (-1);
 }
 }
-
-
