@@ -8,17 +8,17 @@
 
 int factorial (int n)
 {
-if (n > 1)
+if (n >= 0)
 {
 if (n == 1 || n == 0)
 {
-factorial(n) = 1;
+factorial (n) = 1;
 }
 else
 {
-factorial(n) = factorial(n) * factorial(n - 1);
+factorial (n) = factorial (n) * factorial (n - 1);
 }
-return (factorial(n));
+return (factorial (n));
 }
 else if (n < 0)
 {
