@@ -6,18 +6,22 @@
  * Return: Always len
  */
 
-int _strlen_recursion(char *s)
+void _strlen_recursion(char *s)
 {
 int len;
 
 len = 0;
 if (*s)
 {
-_strlen_recursion(s + 1);
+if (*s)
+{
+_puts_recursion(s + 1);
 len++;
+}
+returns (len);
 }
 else
 {
+returns ()
 }
-returns (len);
 }
