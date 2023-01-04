@@ -16,7 +16,7 @@ return (1);
 }
 else
 {
-factorial (n) = factorial (n) * factorial (n - 1);
+return (factorial (n) = factorial (n) * factorial (n - 1));
 }
 return (factorial (n));
 }
