@@ -4,7 +4,7 @@
  *
  * @x: first parm
  * @y: second parm
- * Return: Always factorial or -1
+ * Return: Always y, x and -1
  */
 
 int _pow_recursion(int x, int y)
@@ -13,9 +13,16 @@ if (y < 0)
 {
 return (-1);
 }
+else
+{
 if (y > 1)
 {
 y--;
-return (x * _pow_recursion(int x, int y));
+return ((x * _pow_recursion(int x, int y)));
+}
+else
+{
+return (1);
+}
 }
 }
