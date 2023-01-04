@@ -15,8 +15,8 @@ if (*s)
 {
 if (*s)
 {
-i++;
 _strlen_recursion(s + 1);
+i++;
 }
 else
 {
