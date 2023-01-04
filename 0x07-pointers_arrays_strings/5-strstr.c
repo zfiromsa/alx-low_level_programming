@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _memcpy - func that locates a substring.
+ * _strstr - function that locates a substring.
  * @haystack: first parm
  * @needle: second parm
  *
