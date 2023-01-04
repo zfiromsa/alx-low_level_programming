@@ -17,11 +17,11 @@ if (*s)
 {
 i++;
 _strlen_recursion(s + 1);
-return (i);
-}
 }
 else
 {
 return (i);
 }
+}
+return (i);
 }
