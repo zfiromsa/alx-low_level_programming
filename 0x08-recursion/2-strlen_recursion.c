@@ -1,0 +1,23 @@
+#include "main.h"
+/**
+ * _strlen_recursion - returns the length of a string.
+ *
+ * @s: first parm
+ * Return: Always len
+ */
+
+void _strlen_recursion(char *s)
+{
+int len;
+
+len = 0;
+if (*s)
+{
+len++;
+_puts_recursion(s + 1);
+}
+else
+{
+returns (len);
+}
+}
