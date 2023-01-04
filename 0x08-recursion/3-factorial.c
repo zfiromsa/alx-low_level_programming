@@ -6,7 +6,7 @@
  * Return: Always factorial or -1
  */
 
-int factorial (int n)
+int factorial(int n)
 {
 if (n >= 0)
 {
@@ -16,9 +16,8 @@ return (1);
 }
 else
 {
-return (factorial (n) * factorial (n - 1));
+return (factorial(n) * factorial(n - 1));
 }
-return (factorial (n));
 }
 else
 {
