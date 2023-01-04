@@ -2,7 +2,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * _print_rev_recursion - function that prints a string in reverse.
+ * _puts_recursion - prints a string, followed by a new line.
  *
  * @s: first parm
  */
