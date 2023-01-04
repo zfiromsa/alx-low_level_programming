@@ -16,7 +16,10 @@ return (1);
 }
 else
 {
-return ((factorial(n) * factorial(n - 1)));
+int fact;
+
+fact = factorial(n) * factorial(n - 1);
+return (fact);
 }
 }
 else
