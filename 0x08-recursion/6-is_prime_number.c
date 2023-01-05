@@ -4,8 +4,8 @@
  *
  * @n: first parm
  * @i: is track the
- * @isPrime: it chick wither a given parm prim or comp
- * Return: Always isPrime.
+ * isPrime: it chick wither a given parm prim or comp
+ * Return: Always 0 or 1.
  */
 
 int  isPrime(int n, int i);
