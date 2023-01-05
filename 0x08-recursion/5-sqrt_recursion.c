@@ -14,7 +14,8 @@ i = 1;
 j = 1;
 if (n >= 3)
 {
-return (_sqrt(n, i, j));
+_sqrt(n, i, j);
+return (j);
 }
 else if (n == 1)
 {
@@ -24,12 +25,12 @@ return (-1);
 }
 
 /**
- * _sqrt - it fuction   
- * 
+ * _sqrt - it fuction 
+ *
  * @n: first parm.
  * @i: second parm.
  * @j: third parm.
- * Return: Always _sqrt(). 
+ * Return: Always _sqrt().
  */
 int _sqrt(int n, int i, int j)
 {
