@@ -4,6 +4,7 @@
  *
  * @n: first parm
  * @i: is track the
+ * isPrime: it chick wither a given parm prim or comp
  * Return: Always isPrime.
  */
 
