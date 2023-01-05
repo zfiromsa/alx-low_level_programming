@@ -4,6 +4,7 @@
  *
  * @n: first parm
  * @i: is track the
+ * @isprime: it a function.
  * Return: Always isprime().
  */
 
@@ -25,6 +26,9 @@ return (isPrime(n, i));
  */
 int isPrime(int n, int i)
 {
+int mult;
+
+mult = i * i;
 if (n <= 2)
 {
 return (0);
@@ -33,7 +37,7 @@ if (n % i == 0)
 {
 return (0);
 }
-if ((i * i) > n)
+if (mult > n)
 {
 return (1);
 }
