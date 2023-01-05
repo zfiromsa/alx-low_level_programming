@@ -3,7 +3,7 @@
  * is_prime_number - prints a string, followed by a new line.
  *
  * @n: first parm
- *
+ * @i: is track the
  * Return: Always isprime().
  */
 
@@ -33,7 +33,7 @@ if (n % i == 0)
 {
 return (0);
 }
-if (i * i > n)
+if ((i * i) > n)
 {
 return (1);
 }
