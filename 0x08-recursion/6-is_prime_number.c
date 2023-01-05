@@ -5,10 +5,10 @@
  * @n: first parm
  */
 
-int  isPrime(int n, int i = 2);
 int is_prime_number(int n)
 {
-return (isPrime(n, 2));
+int i = 2;
+return (isPrime(n, i));
 }
 
 /**
@@ -18,7 +18,7 @@ return (isPrime(n, 2));
  * @i: second parm.
  * return - Always 0 or 1. 
  */
-int  isPrime(int n, int i = 2)
+int isPrime(int n, int i)
 {
 if (n <= 2)
 {
