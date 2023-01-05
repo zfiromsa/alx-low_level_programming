@@ -3,7 +3,8 @@
  * wildcmp - compares two strings and returns 1 or 0
  *
  * @s1: second parm
- * @s1: first parm
+ * @s2: first parm
+ * @i: it parm
  * Return: Always 0 or 1.
  */
 int _comp(char *s1, char *s2, int i);
