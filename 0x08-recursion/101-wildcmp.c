@@ -6,7 +6,7 @@
  * @s1: 
  *  
  */
-int _comp(char *s1, char *s2, i);
+int _comp(char *s1, char *s2, int i);
 int wildcmp(char *s1, char *s2)
 {
 int i;

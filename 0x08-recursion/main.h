@@ -12,5 +12,6 @@ int is_prime_number(int n);
 int  isPrime(int n, int i);
 int _sqrt(int n, int i, int j);
 int wildcmp(char *s1, char *s2);
+int _comp(char *s1, char *s2, int i);
 
 #endif
