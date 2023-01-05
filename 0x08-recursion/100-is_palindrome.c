@@ -30,6 +30,12 @@ return (0);
 }
 return (1);
 }
+/**
+ * _strlen_recursion - returns the length of a string.
+ *
+ * @s: first parm
+ * Return: Always i
+ */
 
 int _strlen_recursion(char *s)
 {
