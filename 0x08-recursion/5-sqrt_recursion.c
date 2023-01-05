@@ -37,7 +37,7 @@ if (n == i)
 {
 return (j);
 }
-else if (n > i)
+else if (n < i)
 {
 return (-1);
 }
