@@ -7,7 +7,7 @@
 
 int is_prime_number(int n)
 {
-return (isPrime(n));
+return (isPrime(n, int i = 2));
 }
 
 /**
@@ -17,7 +17,7 @@ return (isPrime(n));
  * @return true 
  * @return false 
  */
-int  isPrime(is_prime_number(n), int i = 2)
+int  isPrime(int n, int i = 2)
 {
 if (n <= 2)
 {
