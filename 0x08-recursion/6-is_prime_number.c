@@ -4,7 +4,6 @@
  *
  * @n: first parm
  * @i: is track the
- * @isprime: it a function.
  * Return: Always isprime().
  */
 
