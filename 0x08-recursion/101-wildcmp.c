@@ -26,4 +26,5 @@ return (0);
 i++;
 _comp((s1 + i), (s2 + i), i);
 }
+return (1);
 }
