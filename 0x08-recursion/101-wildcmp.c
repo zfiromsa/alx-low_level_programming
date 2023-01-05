@@ -23,6 +23,10 @@ if ((*s1 + i) != (*s2 + i))
 {
 return (1);
 }
+else if ((*s1 + i) == (*s2 + i))
+{
+return (0);
+}
 i++;
 _comp((s1 + i), (s2 + i), i);
 }
