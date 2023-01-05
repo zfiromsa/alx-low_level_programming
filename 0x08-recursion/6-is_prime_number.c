@@ -25,9 +25,6 @@ return (isPrime(n, i));
  */
 int isPrime(int n, int i)
 {
-int mult;
-
-mult = i * i;
 if (n <= 2)
 {
 return (0);
@@ -36,7 +33,7 @@ if (n % i == 0)
 {
 return (0);
 }
-if (mult > n)
+if ((i * i) > n)
 {
 return (1);
 }
