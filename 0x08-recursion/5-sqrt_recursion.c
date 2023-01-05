@@ -16,17 +16,11 @@ if (n >= 3)
 {
 return (_sqrt(n, i, j));
 }
-else
-{
-if (n == 1)
+else if (n == 1)
 {
 return (1);
 }
-else
-{
 return (-1);
-}
-}
 }
 
 int _sqrt(int n, int i, int j)
