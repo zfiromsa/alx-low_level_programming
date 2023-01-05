@@ -23,6 +23,14 @@ return (1);
 return (-1);
 }
 
+/**
+ * _sqrt - it fuction   
+ * 
+ * @n: first parm.
+ * @i: second parm.
+ * @j: third parm.
+ * Return: Always _sqrt(). 
+ */
 int _sqrt(int n, int i, int j)
 {
 if ((n - i) == 0)
@@ -34,4 +42,3 @@ else
 return (_sqrt((n - 1), (i + 2), (j + 1)));
 }
 }
-
