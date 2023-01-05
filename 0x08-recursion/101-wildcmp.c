@@ -14,6 +14,14 @@ int i;
 i = 0;
 return (_comp(s1, s2, i));
 }
+/**
+ * _comp -it comp to string
+ *
+ * @s1: first
+ * @param s2
+ * @param i
+ * @return int
+ */
 
 int _comp(char *s1, char *s2, int i)
 {
