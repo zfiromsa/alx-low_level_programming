@@ -4,7 +4,7 @@
  *
  * @n: first parm
  * @i: is track the
- * Return: Always isprime().
+ * Return: Always isPrime.
  */
 
 int  isPrime(int n, int i);
