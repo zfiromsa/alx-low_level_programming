@@ -3,21 +3,25 @@
  * is_prime_number - prints a string, followed by a new line.
  *
  * @n: first parm
+ *
+ * Return: Always isprime().
  */
 
 int  isPrime(int n, int i);
 int is_prime_number(int n)
 {
-int i = 2;
+int i;
+
+i = 2;
 return (isPrime(n, i));
 }
 
 /**
- * isPrime - 
+ * isPrime - it chick wither a given are prime or not.
  *
  * @n: first parm.
  * @i: second parm.
- * return - Always 0 or 1. 
+ * return - Always 0 or 1.
  */
 int isPrime(int n, int i)
 {
@@ -35,6 +39,6 @@ return (1);
 }
 else
 {
-return isPrime(n, i + 1);
+return (isPrime(n, i + 1));
 }
 }
