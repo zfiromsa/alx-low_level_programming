@@ -5,6 +5,7 @@
  * @n: first parm
  */
 
+int  isPrime(int n, int i);
 int is_prime_number(int n)
 {
 int i = 2;
@@ -22,7 +23,7 @@ int isPrime(int n, int i)
 {
 if (n <= 2)
 {
-return (0)
+return (0);
 }
 if (n % i == 0)
 {
