@@ -22,7 +22,7 @@ return (isPrime(n, i));
  *
  * @n: first parm.
  * @i: second parm.
- * return - Always 0 or 1.
+ * Return - Always 0 or 1.
  */
 int isPrime(int n, int i)
 {
