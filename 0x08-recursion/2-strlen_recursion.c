@@ -15,6 +15,6 @@ return (0);
 else
 {
 s++;
-return ((1 + _strlen_recursion));
+return ((1 + _strlen_recursion(s)));
 }
 }
