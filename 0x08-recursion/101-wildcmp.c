@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * @brief
+ * wildcmp - compares two strings and returns 1 or 0
  *
- * @s1:
- * @s1:
- *
+ * @s1: second parm
+ * @s1: first parm
+ * Return: Always 0 or 1.
  */
 int _comp(char *s1, char *s2, int i);
 int wildcmp(char *s1, char *s2)
@@ -18,9 +18,9 @@ return (_comp(s1, s2, i));
  * _comp -it comp to string
  *
  * @s1: first
- * @param s2
- * @param i
- * @return int
+ * @s2: second parm
+ * @i: third parm
+ * Return: Always 0.
  */
 
 int _comp(char *s1, char *s2, int i)
