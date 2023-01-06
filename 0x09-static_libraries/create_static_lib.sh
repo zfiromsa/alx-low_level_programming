@@ -1,2 +1,2 @@
 #!/bin/bash
-ar rcs libname.a *.o
+ar rcs liball.a *.o
