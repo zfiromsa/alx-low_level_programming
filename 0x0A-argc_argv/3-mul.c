@@ -15,7 +15,7 @@ int mul;
 if (argc > 1)
 {
 mul = atoi(argv[1]) * atoi(argv[2]);
-printf("%s\n", mul);
+printf("%d\n", mul);
 }
 else
 {
