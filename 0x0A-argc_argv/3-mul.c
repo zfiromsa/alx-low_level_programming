@@ -10,16 +10,12 @@
 
 int main(int argc, char* argv[])
 {
-int i, mul;
+int mul;
 
-mul = 1;
 if (argc > 1)
 {
-for (i = 1; i <= 2; i++)
-{
-mul *= atoi(argv[i]);
-}
-printf("%s", mul);
+mul = atoi(argv[1]) * atoi(argv[2]);
+printf("%s\n", mul);
 }
 else
 {
