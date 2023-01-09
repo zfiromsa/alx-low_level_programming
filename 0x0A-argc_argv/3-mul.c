@@ -19,7 +19,7 @@ printf("%d\n", mul);
 }
 else
 {
-printf("Error");
+printf("Error\n");
 return (1);
 }
 return (0);
