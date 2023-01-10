@@ -16,7 +16,11 @@ int add, _argc;
 
 add = 0;
 _argc = argc - 1;
-if (_argc > 1)
+if (_argc == 0)
+{
+printf("%d\n", add);
+}
+else
 {
 while (_argc <= 1)
 {
@@ -31,7 +35,7 @@ return (1);
 }
 _argc--;
 }
-}
 printf("%d\n", add);
+}
 return (0);
 }
