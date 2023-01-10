@@ -16,7 +16,7 @@ int i, add;
 
 i = 1;
 add = 0;
-if (i >= 2)
+if (argc >= 2)
 {
 while (i <= argc)
 {
