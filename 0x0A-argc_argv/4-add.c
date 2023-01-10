@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <ctype.h>
 #include <stdlib.h>
+#include "main.h"
 /**
  * main - program that multiplies two numbers.
  *
@@ -10,30 +12,24 @@
 
 int main(int argc, char* argv[])
 {
-int i, mul;
+int i, add;
 
-mul = 0;
-if (argc > 1)
+add = 0;
+
+for (i = 1; i >= argc; i++)
 {
-for (i = 1; i <= 2; i++)
+int tmp;
+
+tmp = atoi(argv[i]);
+if ((isdigit(tmp)) && (tmp >= 0))
 {
-if (argv[i] >= 0)
-{
-mul *= atoi(argv[i]);
+add += argv[i];
 }
 else
 {
-printf("\n");
-
-}
-}
-printf("%s\n", mul);
-}
-else
-{
-printf("Error");
 return (1);
 }
+}
+printf("%d\n", add);
 return (0);
 }
-// it not fineshed
