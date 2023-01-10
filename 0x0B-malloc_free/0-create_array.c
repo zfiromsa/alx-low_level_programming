@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * main - function that frees a 2 dimensional grid
- *
+ * create_array - function that frees a 2 dimensional grid
  *
  * @grid: parm
  * @height: parm
@@ -11,7 +10,7 @@
 
 char *create_array(unsigned int size, char c)
 {
-char *str;
+char* str;
 unsigned int i;
 
 i = 0;
