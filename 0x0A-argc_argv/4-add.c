@@ -24,9 +24,12 @@ else
 {
 while (_argc <= 1)
 {
-if (isdigit(argv[_argc]))
+int  _argv;
+
+_argv = atoi(argv[_argc]);
+if (isdigit(_argv))
 {
-add += atoi(argv[_argc]);
+add += _argv;
 }
 else
 {
