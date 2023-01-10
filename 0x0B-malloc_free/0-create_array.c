@@ -16,6 +16,6 @@ if (size == 0)
 {
 return (NULL);
 }
-ar = malloc(size * sizeof(char));
+ar = malloc(size * sizeof(c));
 return (ar);
 }
