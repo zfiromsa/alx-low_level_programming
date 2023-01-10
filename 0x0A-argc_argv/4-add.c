@@ -12,24 +12,24 @@
 
 int main(int argc, char* argv[])
 {
-int i, add;
+int add, _argc;
 
-i = 1;
 add = 0;
-if (argc >= 2)
+_argc = argc;
+if (_argc >= 2)
 {
-while (i <= argc)
+while (_argc <= 1)
 {
-if (isdigit(argv[i]))
+if (isdigit(argv[_argc]))
 {
-add += atoi(argv[i]);
+add += atoi(argv[_argc]);
 }
 else
 {
 printf("Error\n");
 return (1);
 }
-i++;
+_argc--;
 }
 }
 printf("%d\n", add);
