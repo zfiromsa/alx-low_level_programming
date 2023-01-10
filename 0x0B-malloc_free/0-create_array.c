@@ -6,17 +6,24 @@
  *
  * @grid: parm
  * @height: parm
+ * Return: always str or NULL
  */
 
 char *create_array(unsigned int size, char c)
 {
-char *ar, ch;
+char *str;
+unsigned int i;
 
-void (c);
-if (size == 0)
+i = 0;
+str = malloc(sizeof(char) * size);
+if (size == 0 || str == NULL)
 {
 return (NULL);
 }
-ar = malloc(size * sizeof(ch));
-return (ar);
+while (i < size)
+{
+str[i] = c;
+i++;
+}
+return (str);
 }
