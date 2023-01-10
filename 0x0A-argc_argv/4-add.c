@@ -14,17 +14,17 @@ int main(int argc, char* argv[])
 {
 int i, add;
 
+i = 1;
 add = 0;
-
-for (i = 1; i >= argc; i++)
+while (i <= argc)
 {
-char tmp[] = argv[i];
-if ((isdigit(tmp)))
+if (isdigit(argv[i]))
 {
 add += atoi(argv[i]);
 }
 else
 {
+printf("Error\n");
 return (1);
 }
 }

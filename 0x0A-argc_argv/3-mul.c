@@ -12,18 +12,23 @@
 
 int main(int argc, char* argv[])
 {
-int  mul;
+int i, mul;
 
-(void) argc;
-if (isdigit(argv[1]) && isdigit(argv[2]))
+i = 0;
+mul = 1;
+if (argc <= 2)
 {
-mul = atoi(argv[1]) * atoi(argv[2]);
-printf("%d", mul);
+printf("\n");
+return (1);
 }
 else
 {
-printf("Error\n");
-return (1);
+while (i <= argc)
+{
+mul *= atoi(argv[i]);
+i++;
 }
+}
+printf("%d\n", mul);
 return (0);
 }
