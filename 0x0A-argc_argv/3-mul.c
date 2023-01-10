@@ -12,7 +12,7 @@
 
 int main(int argc, char* argv[])
 {
-int i, mul;
+int i,mul;
 
 if (isdigit(argv[1]) && isdigit(argv[2]))
 {
