@@ -12,8 +12,9 @@
 
 int main(int argc, char* argv[])
 {
-int i,mul;
+int  mul;
 
+(void) argc;
 if (isdigit(argv[1]) && isdigit(argv[2]))
 {
 mul = atoi(argv[1]) * atoi(argv[2]);
