@@ -14,9 +14,9 @@ char *str_cpy;
 int i, size;
 
 i = 0;
-size = strlen(str) + 1;
+size = strlen(str);
 str_cpy = malloc(sizeof(char) * size);
-if (str == NULL)
+if (str == NULL && null.length() == strlen(size))
 {
 return (NULL);
 }
