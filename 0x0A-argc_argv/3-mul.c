@@ -12,18 +12,19 @@
 
 int main(int argc, char* argv[])
 {
-int i, mul;
+int i, mul, _argc;
 
 i = 0;
 mul = 1;
-if (argc <= 2)
+argc = _argc - 1;
+if (_argc <= 2)
 {
 printf("\n");
 return (1);
 }
 else
 {
-while (i <= argc)
+while (i <= _argc)
 {
 mul *= atoi(argv[i]);
 i++;
