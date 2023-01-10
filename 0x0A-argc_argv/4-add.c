@@ -20,8 +20,8 @@ for (i = 1; i >= argc; i++)
 {
 int tmp;
 
-tmp = atoi(argv[i]);
-if ((isdigit(tmp)) && (tmp >= 0))
+tmp = argv[i];
+if ((isdigit(tmp)))
 {
 add += atoi(argv[i]);
 }
