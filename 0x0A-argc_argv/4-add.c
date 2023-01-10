@@ -23,7 +23,7 @@ int tmp;
 tmp = atoi(argv[i]);
 if ((isdigit(tmp)) && (tmp >= 0))
 {
-add += argv[i];
+add += atoi(argv[i]);
 }
 else
 {

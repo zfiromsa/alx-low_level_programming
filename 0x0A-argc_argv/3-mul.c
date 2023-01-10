@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 #include "main.h"
 /**
  * main - program that multiplies two numbers.
@@ -10,12 +12,12 @@
 
 int main(int argc, char* argv[])
 {
-int mul;
+int i, mul;
 
-if (argc > 1)
+if (isdigit(argv[1]) && isdigit(argv[2]))
 {
 mul = atoi(argv[1]) * atoi(argv[2]);
-printf("%d\n", mul);
+printf("%d", mul);
 }
 else
 {
