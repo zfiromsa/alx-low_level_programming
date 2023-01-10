@@ -18,9 +18,7 @@ add = 0;
 
 for (i = 1; i >= argc; i++)
 {
-char tmp;
-
-tmp = argv[i];
+char tmp[] = argv[i];
 if ((isdigit(tmp)))
 {
 add += atoi(argv[i]);
