@@ -16,7 +16,7 @@ int i, add, _argc;
 
 i = 1;
 add = 0;
-argc = _argc - 1;
+_argc = argc - 1;
 while (i <= _argc)
 {
 if (isdigit(argv[i]))

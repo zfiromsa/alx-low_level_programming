@@ -16,7 +16,7 @@ int i, mul, _argc;
 
 i = 0;
 mul = 1;
-argc = _argc - 1;
+_argc = argc - 1;
 if (_argc <= 2)
 {
 printf("\n");
