@@ -16,6 +16,8 @@ int i, add;
 
 i = 1;
 add = 0;
+if (i >= 2)
+{
 while (i <= argc)
 {
 if (isdigit(argv[i]))
@@ -28,6 +30,7 @@ printf("Error\n");
 return (1);
 }
 i++;
+}
 }
 printf("%d\n", add);
 return (0);
