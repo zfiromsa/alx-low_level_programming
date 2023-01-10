@@ -16,7 +16,7 @@ int add, _argc;
 
 add = 0;
 _argc = argc - 1;
-if (_argc >= 1)
+if (_argc > 1)
 {
 while (_argc <= 1)
 {
