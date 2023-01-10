@@ -12,12 +12,11 @@
 
 int main(int argc, char* argv[])
 {
-int i, add, _argc;
+int i, add;
 
 i = 1;
 add = 0;
-_argc = argc - 1;
-while (i <= _argc)
+while (i <= argc)
 {
 if (isdigit(argv[i]))
 {
