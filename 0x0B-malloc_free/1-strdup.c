@@ -15,7 +15,7 @@ int i, size;
 
 i = 0;
 size = strlen(str) + 1;
-str_cpy = malloc(sizeof(str));
+str_cpy = malloc(sizeof(char) * size);
 if (str == NULL)
 {
 return (NULL);
