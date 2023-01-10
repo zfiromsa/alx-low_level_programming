@@ -3,14 +3,14 @@
 /**
  * create_array - function that frees a 2 dimensional grid
  *
- * @grid: parm
- * @height: parm
+ * @c: parm
+ * @size: parm
  * Return: always str or NULL
  */
 
 char *create_array(unsigned int size, char c)
 {
-char* str;
+char *str;
 unsigned int i;
 
 i = 0;
