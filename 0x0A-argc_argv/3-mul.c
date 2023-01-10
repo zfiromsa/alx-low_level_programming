@@ -12,24 +12,15 @@
 
 int main(int argc, char* argv[])
 {
-int i, mul, _argc;
+int i, j;
 
-i = 0;
-mul = 1;
-_argc = argc - 1;
-if (_argc <= 2)
+if (argc == 3)
 {
-printf("\n");
-return (1);
+i = atoi(argv[1]);
+j = atoi(argv[2]);
+printf("%d\n", i * j);
+return (0);
 }
-else
-{
-while (i <= _argc)
-{
-mul *= atoi(argv[i]);
-i++;
-}
-}
-printf("%d\n", mul);
+printf("Error\n");
 return (0);
 }
