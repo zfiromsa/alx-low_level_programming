@@ -18,7 +18,7 @@ add = 0;
 
 for (i = 1; i >= argc; i++)
 {
-int tmp;
+char tmp;
 
 tmp = argv[i];
 if ((isdigit(tmp)))
