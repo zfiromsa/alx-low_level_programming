@@ -17,7 +17,7 @@ if (width && height)
 {
 return (NULL);
 }
-int _return = (int *)malloc(width * height * sizeof(int)); 
+_return = (int *)malloc(width * height * sizeof(int)); 
 if (_return == NULL)
 {
 return (NULL);
