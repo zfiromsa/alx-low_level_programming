@@ -28,5 +28,5 @@ for (j = s1_len; j < size; j++)
 {
 str_cnc[s1_len] = str_cnc[size];
 }
-return (str_cpy);
+return (str_cnc);
 }
