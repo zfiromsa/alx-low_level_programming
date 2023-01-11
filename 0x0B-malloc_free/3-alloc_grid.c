@@ -16,10 +16,15 @@ if (width && height)
 {
 return (NULL);
 }
-int **_return(size_t width, size_t height) 
-{
-return malloc(width * height * sizeof(int));
-}
+
+
+    _return = malloc(width * sizeof(int *));
+    for(i = 0; i < height; i++)
+    {
+        array[i] = malloc(width * sizeof(int));
+    }
+
+
 if (_return == NULL)
 {
 return (NULL);
