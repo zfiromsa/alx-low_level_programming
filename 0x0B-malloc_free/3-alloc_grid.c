@@ -24,7 +24,7 @@ if (width && height)
 {
 return (NULL);
 }
-_return = malloc(sizeof(int) * arr); 
+_return = malloc(width*height*sizeof(int));
 if (_return == NULL)
 {
 return (NULL);
