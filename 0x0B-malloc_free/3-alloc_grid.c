@@ -12,10 +12,6 @@ int **alloc_grid(int width, int height)
 {
 int **_return, i, j, l;
 
-if (width && height)
-{
-return (NULL);
-}
 
 
     _return = malloc(width * sizeof(int *));
