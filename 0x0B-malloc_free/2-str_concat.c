@@ -10,7 +10,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-char *str_cpy;
+char *str_cnc;
 int i, j, size, s1_len;
 
 size = strlen(s1) + strlen(s2);
