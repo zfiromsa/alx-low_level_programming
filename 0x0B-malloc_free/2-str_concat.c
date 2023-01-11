@@ -26,7 +26,7 @@ for (i = 0; i < s1_len; i++)
 {
 str_cnc[i] = s1[i];
 }
-for (j = s1_len, k = 0; j < size, k < s2_len; j++, k++)
+for (j = s1_len, k = 0; j < size && k < s2_len; j++, k++)
 {
 str_cnc[j] = s2[k];
 }
