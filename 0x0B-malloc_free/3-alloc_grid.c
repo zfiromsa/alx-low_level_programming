@@ -25,12 +25,9 @@ if (_return == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < width; i++)
-{
-for (j = 0; j < height; j++)
+for (i = 0, j = 0; i < width && j < height; i++, j++)
 {
 _return[i][j] = 0;
-}
 }
 return(_return);
 }
