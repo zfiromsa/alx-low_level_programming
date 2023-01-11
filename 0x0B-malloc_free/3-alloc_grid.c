@@ -13,11 +13,11 @@ int **alloc_grid(int width, int height)
 int **_return;
 int i, j;
 
-if (width = NULL && height ++NULL)
+if (width = NULL && height == NULL)
 {
 return (NULL);
 }
-int **_return = (int *)malloc(width * height * sizeof(int)); 
+int _return = (int *)malloc(width * height * sizeof(int)); 
 if (_return == NULL)
 {
 return (NULL);
