@@ -16,7 +16,7 @@ if (width && height)
 {
 return (NULL);
 }
-int ** _return(size_t width, size_t height) 
+int **_return(size_t width, size_t height) 
 {
 return malloc(width * height * sizeof(int));
 }
