@@ -23,7 +23,7 @@ _return[l] = malloc(width * sizeof(int));
 }
 if (_return == NULL)
 {
-for (int i = 0; i < height; i++)
+for (i = 0; i < height; i++)
 {
 free(_return[i]);
 }
