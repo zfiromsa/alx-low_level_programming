@@ -16,11 +16,8 @@ if (width <= 0 || height <= 0)
 {
 return (NULL);
 }
-_return = malloc(width * sizeof(int *));
-for (l = 0; l < height; l++)
-{
-_return[l] = malloc(width * sizeof(int *));
-}
+l = sizeof(int *) * width + sizeof(int) * height * width;
+_return = (int **)malloc(len);
 if (_return == NULL)
 {
 free(_return);
