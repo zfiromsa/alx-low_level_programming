@@ -19,9 +19,9 @@ return (NULL);
 
 
     _return = malloc(width * sizeof(int *));
-    for(i = 0; i < height; i++)
+    for(l = 0; l < height; l++)
     {
-        _return[i] = malloc(width * sizeof(int));
+        _return[l] = malloc(width * sizeof(int));
     }
 
 
