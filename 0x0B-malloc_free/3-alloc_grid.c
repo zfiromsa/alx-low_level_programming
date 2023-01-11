@@ -16,14 +16,17 @@ if (width <= 0 || height <= 0)
 {
 return (NULL);
 }
-l = sizeof(int *) * width + sizeof(int) * height * width;
-_return = (int **)malloc(len);
+_return = malloc(height * sizeof(int *));
+for (l = 0; l < width; l++)
+{
+_return[l] = malloc(height * sizeof(int));
+}
 if (_return == NULL)
 {
 free(_return);
 return (NULL);
 }
-for (i = 0, j = 0; i < width && j < height; i++, j++)
+for (i = 0, j = 0; i < height && j < width; i++, j++)
 {
 _return[i][j] = 0;
 }
