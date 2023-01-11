@@ -29,7 +29,7 @@ for (i = 0; i < width; i++)
 {
 for (j = 0; j < height; j++)
 {
-_return[width][height] = 0;
+_return[i][j] = 0;
 }
 }
 return(_return);
