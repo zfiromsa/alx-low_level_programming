@@ -16,19 +16,19 @@ if (width <= 0 || height <= 0)
 {
 return (NULL);
 }
-_return = malloc(height * sizeof(int *));
-for (l = 0; l < width; l++)
+_return = malloc(width * sizeof(int *));
+for (l = 0; l < height; l++)
 {
-_return[l] = malloc(height * sizeof(int));
+_return[l] = malloc(width * sizeof(int));
 }
-for (i = 0; i < height; i++)
+if (_return == NULL)
 {
-if (_return == NULL && _return[l] == NULL)
+for (i = 0; i < width; i++)
 {
-free(_return);
 free(_return[i]);
-return (NULL);
 }
+free(_return);
+return (NULL);
 }
 for (i = 0, j = 0; i < width && j < height; i++, j++)
 {
