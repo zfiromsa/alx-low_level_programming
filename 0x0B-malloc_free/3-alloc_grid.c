@@ -19,7 +19,7 @@ return (NULL);
 _return = (int**)malloc(width * sizeof(int*));
 for (l = 0; l < width; l++)
 {
-_return[i] = (int*)malloc(height * sizeof(int));
+_return[l] = (int*)malloc(height * sizeof(int));
 }
 if (_return == NULL)
 {
