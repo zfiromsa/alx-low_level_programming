@@ -21,7 +21,7 @@ if (_return == NULL)
 {
 return (NULL);
 }
-int _return[width][height];
+_return[width][height];
 for (i = 0; i < width; i++)
 {
 for (j = 0; j < height; j++)
