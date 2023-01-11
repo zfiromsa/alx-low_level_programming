@@ -10,19 +10,8 @@
 
 int **alloc_grid(int width, int height)
 {
-int **_return, col, row, i, j;
+int **_return, i, j;
 
-
-row = width;
-col = height;
-int arr[row][col];
-for (i = 0; i < width; i++)
-{
-for (j = 0; j < height; j++)
-{
-arr[width][height] = 0;
-}
-}
 if (width && height)
 {
 return (NULL);
@@ -32,6 +21,13 @@ if (_return == NULL)
 {
 return (NULL);
 }
-_return = &arr;
+int _return[width][height];
+for (i = 0; i < width; i++)
+{
+for (j = 0; j < height; j++)
+{
+_return[width][height] = 0;
+}
+}
 return(_return);
 }
