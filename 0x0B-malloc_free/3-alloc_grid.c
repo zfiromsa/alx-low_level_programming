@@ -21,7 +21,7 @@ return (NULL);
     _return = malloc(width * sizeof(int *));
     for(i = 0; i < height; i++)
     {
-        array[i] = malloc(width * sizeof(int));
+        _return[i] = malloc(width * sizeof(int));
     }
 
 
