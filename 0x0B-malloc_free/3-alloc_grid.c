@@ -24,7 +24,9 @@ _return[l] = malloc(width * sizeof(int));
 if (_return == NULL)
 {
 for (int i = 0; i < r; i++)
-free(arr[i]);
+{
+free(_return[i]);
+}
 free(_return);
 return (NULL);
 }
