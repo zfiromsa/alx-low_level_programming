@@ -14,6 +14,10 @@ char *str_concat(char *s1, char *s2)
 char *str_cnc;
 int i, j, k, size, s1_len, s2_len;
 
+if ( s1 = NULL || s2 = NULL)
+{
+return (NULL);
+}
 size = strlen(s1) + strlen(s2) + 1;
 s1_len = strlen(s1);
 s2_len = strlen(s2);
