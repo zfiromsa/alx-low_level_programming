@@ -23,11 +23,12 @@ _return[l] = malloc(width * sizeof(int));
 }
 if (_return == NULL)
 {
+free(_return);
 return (NULL);
 }
 for (i = 0, j = 0; i < width && j < height; i++, j++)
 {
 _return[i][j] = 0;
 }
-return(_return);
+return (_return);
 }
