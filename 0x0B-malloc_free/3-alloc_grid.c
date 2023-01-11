@@ -11,14 +11,13 @@
 int **alloc_grid(int width, int height)
 {
 int *_return;
-int arry[width][height];
+int arry[width][height] = {0,0};
 
 int _return = (arry)malloc(sizeof(int));
 if (_return == NULL)
 {
 return (NULL);
 }
-arry[0][0] = {0,0};
 _return = arry;
 return(_return)
 }
