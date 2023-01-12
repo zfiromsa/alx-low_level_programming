@@ -1,6 +1,7 @@
-#include "main.h"
 #include <string.h>
 #include <stdlib.h>
+#include <stdio.h>
+#include "main.h"
 /**
  * calloc - that allocates memory for an array, using malloc.
  *
