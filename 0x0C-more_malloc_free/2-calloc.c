@@ -8,17 +8,18 @@
  * Return: Always NULL OR  _return 
  */
 
-void *_calloc(unsigned int nmemb, unsigned int size);
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 int *_return;
 
-if (nmemb == NULL || size == 0 || strlen(nmemb) == 0)
+if (nmemb == 0)
 {
-return (NULL)
+return (NULL);
 }
 _return = (int *)malloc(sizeof(int) * size);
 if (_return == NULL)
 {
 return (NULL);
 }
+return (_return);
 }
