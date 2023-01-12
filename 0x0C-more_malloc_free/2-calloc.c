@@ -9,7 +9,7 @@
  * Return: Always NULL OR  _return 
  */
 
-void *_calloc(unsigned int nmemb, unsigned int size)
+int *_calloc(unsigned int nmemb, unsigned int size)
 {
 int *_return;
 
