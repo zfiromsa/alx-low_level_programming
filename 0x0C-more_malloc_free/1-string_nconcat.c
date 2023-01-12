@@ -3,7 +3,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * string_nconcat -  that concatenates two strings. 
+ * string_nconcat -  that concatenates two strings.
  *
  * @s1: parm
  * @s2: parm
