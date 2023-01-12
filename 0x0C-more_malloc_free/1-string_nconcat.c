@@ -17,7 +17,7 @@ char *tmp;
 
 len = strlen(s1) + n;
 lens1 = strlen(s1);
-tmp = malloc(sizeof(char) * len);
+tmp = (char *)malloc(sizeof(char) * len);
 if (s1 == NULL || s2 ==NULL)
 {
 return (NULL);
