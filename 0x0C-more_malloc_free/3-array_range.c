@@ -3,10 +3,10 @@
 #include <stdlib.h>
 /**
  * array_range - that creates an array of integers.
- * 
- * @min:
- * @max:
- * Return: always NULL or  
+ *
+ * @min: parm
+ * @max: parm
+ * Return: always NULL or p
  */
 
 int *array_range(int min, int max)
