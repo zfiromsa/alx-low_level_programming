@@ -23,7 +23,7 @@ if (_return1 == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < nmemb * size; i++)
+for (i = 0; i < (nmemb * size); i++)
 {
 _return1[i] = 0;
 }
