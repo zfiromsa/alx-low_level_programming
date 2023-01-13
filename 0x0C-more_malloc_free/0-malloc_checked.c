@@ -6,6 +6,7 @@
  *
  * @b: parm
  * Return: always p.
+ * exit: 98.
  */
 
 void *malloc_checked(unsigned int b)
