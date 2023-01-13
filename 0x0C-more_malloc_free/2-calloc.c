@@ -27,6 +27,5 @@ for (i = 0; i < size; i++)
 {
 _return1[i] = 0;
 }
-_return1[i] = '\0';
 return (_return1);
 }

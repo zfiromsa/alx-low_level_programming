@@ -35,6 +35,5 @@ for (i = lens1, j = 0; i < len; i++, j++)
 {
 tmp[i] = s2[j];
 }
-tmp[i] = '\0';
 return (tmp);
 }

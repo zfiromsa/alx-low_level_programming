@@ -27,6 +27,5 @@ for (j = 0; j <= len; j++)
 {
 p[j] = min + j;
 }
-p[j] = '\0';
 return (p);
 }
