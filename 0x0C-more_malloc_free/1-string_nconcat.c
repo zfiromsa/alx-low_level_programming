@@ -8,7 +8,7 @@
  * @s1: parm
  * @s2: parm
  * @n: parm
- * Return: always s1, NULL
+ * Return: always tmp, NULL
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -26,7 +26,7 @@ s2 = "";
 }
 len = strlen(s1) + n + 1;
 lens1 = strlen(s1);
-tmp = malloc(sizeof(char) * len);
+tmp = (char *)malloc(sizeof(s2) * len);
 for (i = 0; i < lens1; i++)
 {
 tmp[i] = s1[i];
