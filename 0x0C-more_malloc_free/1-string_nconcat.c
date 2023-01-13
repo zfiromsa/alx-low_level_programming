@@ -16,13 +16,17 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 int i, j, len, lens1;
 char *tmp;
 
-len = strlen(s1) + n;
-lens1 = strlen(s1);
-tmp = (char *)malloc(sizeof(s1) * len);
-if (s1 == NULL || s2 == NULL)
+if (s1 == NULL)
 {
-return (NULL);
+s1 = "";
 }
+if (s2 == NULL)
+{
+s2 = "";
+}
+len = strlen(s1) + n + 1;
+lens1 = strlen(s1);
+tmp = malloc(sizeof(char) * len);
 for (i = 0; i < lens1; i++)
 {
 tmp[i] = s1[i];
@@ -31,5 +35,6 @@ for (i = lens1, j = 0; i < len; i++, j++)
 {
 tmp[i] = s2[j];
 }
+tmp[i] = '\0';
 return (tmp);
 }
