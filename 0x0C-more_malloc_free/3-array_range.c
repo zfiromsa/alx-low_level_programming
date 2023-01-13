@@ -17,7 +17,7 @@ if (min > max)
 {
 return (NULL);
 }
-len = max - min + 1;
+len = max - min;
 p = (int *)malloc(sizeof(int) * len);
 if (p == NULL)
 {

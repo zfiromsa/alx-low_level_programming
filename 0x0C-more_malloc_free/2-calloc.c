@@ -18,7 +18,7 @@ if (size == 0 || nmemb == 0)
 {
 return (NULL);
 }
-_return1 = (int *)malloc(sizeof(nmemb) * size);
+_return1 = (int *)malloc(sizeof(int) * size);
 if (_return1 == NULL)
 {
 return (NULL);
@@ -27,6 +27,6 @@ for (i = 0; i < size; i++)
 {
 _return1[i] = 0;
 }
-_return1[i] = '\0';
+_return1[i] = '/0';
 return (_return1);
 }
