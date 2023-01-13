@@ -17,7 +17,7 @@ if (min > max)
 {
 return (NULL);
 }
-len = max - min;
+len = max - min + 1;
 p = (int *)malloc(sizeof(int) * len);
 if (p == NULL)
 {
@@ -27,5 +27,6 @@ for (j = 0; j <= len; j++)
 {
 p[j] = min + j;
 }
+p[j] = '\0';
 return (p);
 }
