@@ -18,21 +18,11 @@ char *tmp;
 
 if (s1 == NULL)
 {
-s1 = (char *)malloc(sizeof(char) * 1);
-if (s1 == NULL)
-{
-return (NULL);
-}
 s1 = "";
 }
 if (s2 == NULL)
 {
-s2 = (char *)malloc(sizeof(char) * 1);
-if (s2 == NULL)
-{
-return (NULL);
-}
-s = "";
+s2 = "";
 }
 len = strlen(s1) + n;
 lens1 = strlen(s1);
