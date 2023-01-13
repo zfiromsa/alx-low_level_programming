@@ -27,12 +27,12 @@ s1 = "";
 }
 if (s2 == NULL)
 {
-s1 = (char *)malloc(sizeof(char) * 1);
-if (s1 == NULL)
+s2 = (char *)malloc(sizeof(char) * 1);
+if (s2 == NULL)
 {
 return (NULL);
 }
-s2 = "";
+s = "";
 }
 len = strlen(s1) + n;
 lens1 = strlen(s1);
@@ -47,14 +47,4 @@ tmp[i] = s2[j];
 }
 tmp[i] = '\0';
 return (tmp);
-}
-
-int main(void)
-{
-    char *concat;
-
-    concat = string_nconcat("Best ", "School !!!", 4);
-    printf("%s\n", concat);
-    free(concat);
-    return (0);
 }
