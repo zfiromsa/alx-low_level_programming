@@ -15,12 +15,12 @@ int *p;
 
 if (b <= 0)
 {
-exit (98);
+exit(98);
 }
 p = (int *)malloc(sizeof(char) * b);
 if (p == NULL)
 {
-exit (98);
+exit(98);
 }
 return (p);
 }

@@ -18,15 +18,25 @@ char *tmp;
 
 if (s1 == NULL)
 {
+s1 = (char *)malloc(sizeof(char) * 1);
+if (s1 == NULL)
+{
+return (NULL);
+}
 s1 = "";
 }
 if (s2 == NULL)
 {
+s1 = (char *)malloc(sizeof(char) * 1);
+if (s1 == NULL)
+{
+return (NULL);
+}
 s2 = "";
 }
-len = strlen(s1) + n + 1;
+len = strlen(s1) + n;
 lens1 = strlen(s1);
-tmp = (char *)malloc(sizeof(s2) * len);
+tmp = (char *)malloc(sizeof(char) * len);
 for (i = 0; i < lens1; i++)
 {
 tmp[i] = s1[i];
@@ -37,4 +47,14 @@ tmp[i] = s2[j];
 }
 tmp[i] = '\0';
 return (tmp);
+}
+
+int main(void)
+{
+    char *concat;
+
+    concat = string_nconcat("Best ", "School !!!", 4);
+    printf("%s\n", concat);
+    free(concat);
+    return (0);
 }
