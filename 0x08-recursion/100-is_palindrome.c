@@ -18,7 +18,7 @@ return (_is_palindrome_helper(s, 0, (leng - 1)));
  *
  * @s: first parm
  * @end: end track the length of string
- * @first: first track the length of string
+ * @start: first track the length of string
  * Return: Always i
  */
 

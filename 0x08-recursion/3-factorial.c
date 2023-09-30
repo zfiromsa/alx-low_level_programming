@@ -17,6 +17,7 @@ int factorial(int n)
 	else
 	{
 		int  fact;
+
 		if (n == 1)
 		{
 			return (1);

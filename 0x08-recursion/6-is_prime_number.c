@@ -11,10 +11,10 @@
 int  isPrime(int n, int i);
 int is_prime_number(int n)
 {
-int i;
+	int i;
 
-i = 2;
-return (isPrime(n, i));
+	i = 2;
+	return (isPrime(n, i));
 }
 
 /**
@@ -22,24 +22,29 @@ return (isPrime(n, i));
  *
  * @n: first parm.
  * @i: second parm.
- * Return - Always 0 or 1.
+ * Return - Always 0 or 1 or j.
  */
 int isPrime(int n, int i)
 {
-if (n <= 2)
-{
-return (0);
+	int j, mul;
+
+	if (n <= 2)
+	{
+		return (0);
+	}
+	if (n % i == 0)
+	{
+		return (0);
+	}
+	mul = i * i;
+	if (mul > n)
+	{
+		return (1);
+	}
+	else
+	{
+		j = isPrime(n, i + 1);
+		return (j);
+	}
 }
-if (n % i == 0)
-{
-return (0);
-}
-if ((i * i) > n)
-{
-return (1);
-}
-else
-{
-return (isPrime(n, i + 1));
-}
-}
+
