@@ -9,11 +9,11 @@
  * @argv: argument vector
  * Return: Always 0 or 1
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int sum, i, no;
 
- 	sum = 0;
+	sum = 0;
 	i = 1;
 	argc--;
 	while (argc >= i)
@@ -28,6 +28,6 @@ int main(int argc, char* argv[])
 		i++;
 	}
 	printf("%d", sum);
-	return (0); 
+	return (0);
 }
 
