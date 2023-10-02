@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	sum = 0;
 	i = 1;
 	argc--;
-	while (argc >= i)
+	while (argc > i)
 	{
 		no = atoi(argv[i]);
 		if (no == 0)
