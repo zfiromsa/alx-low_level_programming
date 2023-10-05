@@ -1,23 +1,29 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
- * create_array - creates an arry of chars, and initializes with specific char
+ * create_array - function that frees a 2 dimensional grid
  *
- * @size: size of array to be created
- * @c: initializes it with this parm
- * Return: ret or NULL
+ * @c: parm
+ * @size: parm
+ * Return: always str or NULL
  */
 char *create_array(unsigned int size, char c)
 {
-	char *ret;
+	char *str;
+	unsigned int i;
 
-	if (size <= 0)
+	i = 0;
+	str = malloc(sizeof(char) * size);
+	if (size == 0 || str == NULL)
 	{
 		return (NULL);
 	}
-	ret = malloc(sizeof(c) * size);
-	return (ret);
+	while (i < size)
+	{
+		str[i] = c;
+		i++;
+	}
+	return (str);
 }
 
