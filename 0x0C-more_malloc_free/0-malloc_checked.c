@@ -12,7 +12,7 @@ void *malloc_checked(unsigned int b)
 
 	p = (char *)malloc(b);
 	if (p == NULL || (isdigit(b)))
-		exit (98);
+		exit(98);
 	return (p);
 }
 
