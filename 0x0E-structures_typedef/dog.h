@@ -2,7 +2,7 @@
 #define MAIN_H
 
 /**
- * struct my_struct - Short description
+ * struct dog - Short description
  * @name: First member
  * @age: Second member
  * @owner: Third member
@@ -14,10 +14,10 @@ typedef struct dog
 	char *name;
 	float age;
 	char *owner;
-}dog;
+} dog;
 
 /**
- * struct my_struct - Short description
+ * struct dog_t - Short description
  * @name: First member
  * @age: Second member
  * @owner: Third member
@@ -29,7 +29,7 @@ typedef struct dog_t
 	char *name;
 	float age;
 	char *owner;
-}dog_t;
+} dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
