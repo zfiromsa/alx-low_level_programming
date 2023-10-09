@@ -4,9 +4,9 @@
 /**
  * main - prints the name of the fileit was compiled from,followed by a newlin
  *
- * Return 0.
+ * Return: Always 0.
  */
-int main()
+int main(void)
 {
 	printf("%s\n", __FILE__);
 	return (0);
