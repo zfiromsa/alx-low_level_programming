@@ -4,6 +4,7 @@
 /**
  * free_dog - it free alocated pointer
  *
+ * @d: prm
  * Return: nothing
  */
 

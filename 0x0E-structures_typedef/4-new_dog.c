@@ -8,6 +8,7 @@
  * @name: First member
  * @age: Second member
  * @owner: Third member
+ * Return: NULL or dogt
 */
 dog_t *new_dog(char *name, float age, char *owner)
 {

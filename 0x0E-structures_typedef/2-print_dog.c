@@ -6,7 +6,7 @@
 /**
  * print_dog - a function that prints a struct dog.
  *
- * d: struct parmeter
+ * @d: struct parmeter
  * Return: Always nothing.
  */
 void print_dog(struct dog *d)
