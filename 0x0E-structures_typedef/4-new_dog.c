@@ -4,7 +4,6 @@
 /**
  * new_dog - a function that initialize a variable of type struct dog.
  *
- * @d: struct
  * @name: First member
  * @age: Second member
  * @owner: Third member
