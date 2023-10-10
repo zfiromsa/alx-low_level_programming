@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * init_dog - a function that initialize a variable of type struct dog.
+ * new_dog - a function that initialize a variable of type struct dog.
  *
  * @d: struct
  * @name: First member
@@ -15,7 +15,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	dogt = malloc(sizeof(struct dog_t));
 	if (dogt == NULL)
-        	return (NULL);
+		return (NULL);
 	dogt->name = name;
 	dogt->age = age;
 	dogt->owner = owner;
