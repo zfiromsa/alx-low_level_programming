@@ -25,10 +25,10 @@ int main(int argc, char *argv[])
 	}
 	opcode = (unsigned char *)main;
 	i = 0;
-    while (i < _argc)
+	while (i < _argc)
 	{
 		printf("%02x", opcode[i]);
-		if ((i + 2) != _argc)
+		if ((i + 1) != _argc)
 			printf(" ");
 		i++;
 	}
