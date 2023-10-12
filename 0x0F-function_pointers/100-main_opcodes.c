@@ -7,9 +7,9 @@
  * @argv: argument vector
  * Return: Always 0 or 1 or 2
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-	unsigned char* opcode;
+	unsigned char *opcode;
 	int i, _argc;
 
 	if (argc != 2)
@@ -23,16 +23,16 @@ int main(int argc, char* argv[])
 		printf("Error\n");
 		return (2);
 	}
-	opcode = (unsigned char*)main;
+	opcode = (unsigned char *)main;
 	i = 0;
-    	while(i < _argc)
+    	while (i < _argc)
 	{
 		printf("%02x", opcode[i]);
-		if ((i - 1) < _argc)
+		if ((i + 2) == _argc)
 			printf(" ");
 		i++;
 	}
 	printf("\n");
-	return 0;
+	return (0);
 }
 
