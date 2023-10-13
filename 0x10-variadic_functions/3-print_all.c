@@ -1,6 +1,11 @@
 #include "variadic_functions.h"
 
-void print_all(const char * format, ...)
+/**
+ * print_all - a function that prints anything.
+ *
+ * @format: parm
+ */
+void print_all(const char *format, ...)
 {
 	va_list ap;
 	char _char, *_string;
@@ -35,8 +40,8 @@ void print_all(const char * format, ...)
 			printf("%c", _char);
 		}
 		format++;
-        if (*format != '\0')
-		    printf(", ");
+		if (*format != '\0')
+			printf(", ");
 	}
 	va_end(ap);
 	printf("\n");
