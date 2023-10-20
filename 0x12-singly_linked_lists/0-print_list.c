@@ -2,7 +2,7 @@
 
 size_t print_list(const list_t *h)
 {
-size_t ret;
+unsigned long int ret;
 
 ret = 0;
 while (h != NULL)
@@ -13,7 +13,7 @@ printf("[0] (nil)\n");
 }
 else
 {
-printf("%lu %s\n", (long unsigned int)h->len, h->str);
+printf("%lu %s\n", h->len, h->str);
 }
 h = h->next;
 ret++;
