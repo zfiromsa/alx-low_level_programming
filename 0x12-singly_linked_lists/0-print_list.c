@@ -13,7 +13,7 @@ printf("[0] (nil)\n");
 }
 else
 {
-printf("%lu %s\n", h->len, h->str);
+printf("%lu %s\n", (long unsigned int)h->len, h->str);
 }
 h = h->next;
 ret++;
