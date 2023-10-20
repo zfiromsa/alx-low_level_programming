@@ -2,7 +2,7 @@
 
 size_t print_list(const list_t *h)
 {
-unsigned long int ret;
+size_t ret;
 
 ret = 0;
 while (h != NULL)
