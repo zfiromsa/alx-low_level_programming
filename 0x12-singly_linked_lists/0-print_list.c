@@ -13,7 +13,7 @@ printf("[0] (nil)\n");
 }
 else
 {
-printf("%lu %s\n", h->len, h->str);
+printf("[%d] %s\n", h->len, h->str);
 }
 h = h->next;
 ret++;
