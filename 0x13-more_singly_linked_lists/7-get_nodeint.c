@@ -2,7 +2,7 @@
 
 /**
  * get_nodeint_at_index - a func that returns the nth node of a list.
- * 
+ *
  * @head: address of linked list.
  * @index: the index of the node.
  * Return: head or NULL.
