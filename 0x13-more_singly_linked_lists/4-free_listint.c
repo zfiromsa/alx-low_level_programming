@@ -9,9 +9,9 @@ if (new == NULL || head == NULL)
 {
 exit (98);
 }
-new = head->next;
-free(head->next);
-free(head);
-free_listint(new);
+new = head;
+head = head->next;
+free(new->next);
 free(new);
+free_listint(head);
 }
