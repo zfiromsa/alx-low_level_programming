@@ -16,7 +16,6 @@ unsigned int binary_to_uint(const char *b)
 	power = 1;
 	if (!b)
 		return (0);
-	i = 0;
 	while (b[i])
 		i++;
 	i--;
