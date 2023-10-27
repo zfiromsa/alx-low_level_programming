@@ -1,4 +1,4 @@
-#ifndef MEIN_H
+#ifndef MAIN_H
 #define MAIN_H
 
 int _putchar(char c);
@@ -11,3 +11,4 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m);
 int get_endianness(void);
 
 #endif
+
