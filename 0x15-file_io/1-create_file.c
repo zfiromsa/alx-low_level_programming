@@ -20,7 +20,7 @@ int create_file(const char *filename, char *text_content)
 	if (fd == -1)
 		return (-1);
 	if (text_content == NULL)
-		write(fd, "", 0);
+		write(fd, "", 1);
 	if (text_content != NULL)
 		write(fd, text_content, leng);
 	close(fd);
