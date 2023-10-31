@@ -19,11 +19,8 @@ int create_file(const char *filename, char *text_content)
 	fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, mode);
 	if (fd == -1)
 		return (-1);
-	if (text_content ==NULL)
-	{
-		close(fd);
-		return (1);
-	}
+	if (text_content == NULL)
+		write(fd, "", 0);
 	if (text_content != NULL)
 		write(fd, text_content, leng);
 	close(fd);
