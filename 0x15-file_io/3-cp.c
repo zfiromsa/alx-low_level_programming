@@ -32,12 +32,11 @@ exit(100);
 exit(99);
 }
 i = 0;
-i = write(fd[0], fd[1], buff);
+i = write(fd[0], (void *)fd[1], buff);
 if (i != buff)
 {
 close(fd[0]);
 close(fd[1]);
-return (-1);
 }
 close(fd[0]);
 close(fd[1]);
