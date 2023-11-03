@@ -32,7 +32,7 @@ int main(int argc, char **argv)
 	}
 	while ((_read = read(fd_from, buffer, BUFFER)) > 0)
 	{
-		_write = write(fd_to, buffer, BUFFER);
+		_write = write(fd_to, buffer, _read);
 		if (_write < 0)
 		{
 			dprintf(STDOUT_FILENO, CANT_WRITE, argv[2]);
