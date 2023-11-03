@@ -7,7 +7,7 @@ int main(int argc, char **argv)
 	ssize_t _read, _write;
 	mode_t mode;
 
-	mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
+	mode = S_IRUSR | S_IWUSR | S_IWGRP | S_IRGRP | S_IROTH;
 	if (argc != 3)
 	{
 		dprintf(STDOUT_FILENO, USAGE);
