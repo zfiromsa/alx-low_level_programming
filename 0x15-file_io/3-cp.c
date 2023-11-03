@@ -37,7 +37,7 @@ while ((_read = read(fd[0], buff, Zbuff)) > 0)
     _written = write(fd[1], buff, _read);
     if (_written != _read)
     {
-      dprintf(STDERR_FILENO, "Error: Can't write to NAME_OF_THE_FILE", argv[2]);
+      dprintf(STDERR_FILENO, "Error: Can't write to NAME_OF_THE_FILE %S", argv[1]);
       close(fd[0]);
       close(fd[1]);
       exit(99);
@@ -45,5 +45,6 @@ while ((_read = read(fd[0], buff, Zbuff)) > 0)
   }
 close(fd[0]);
 close(fd[1]);
+return (0);
 }
 
