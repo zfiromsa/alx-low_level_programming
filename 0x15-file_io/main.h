@@ -3,6 +3,7 @@
 
 #define _POSIX_C_SOURCE  200809L
 #define _GNU_SOURCE
+#define Zbuff 1024
 
 #include <stdio.h>
 #include <stdlib.h>
