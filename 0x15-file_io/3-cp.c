@@ -2,12 +2,14 @@
 
 int main(int argc, char **argv)
 {
-int fd[2], i, buff;
+int fd[2], i, Zbuff;
+char buff[Zbuff];
 mode_t mode;
+ssize_t _read, _written;
 
 mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
 i = 0;
-buff = 1024;
+Zbuff = 1024;
 if (argc != 3)
 {
 dprintf(2, "Usage: cp file_from file_to");
@@ -22,7 +24,7 @@ exit(98);
 fd[1] = open(argv[1], O_WRONLY | O_CREAT | O_TRUNC, mode);
 if (fd[1] == -1)
 {
-dprintf(2, "Error: Can't write to NAME_OF_THE_FILE %s", argv[1]);
+dprintf(STDERR_FILENO, "Error: Can't write to NAME_OF_THE_FILE %s", argv[1]);
 i = close(fd[0]);
 if (i != 0)
 {
@@ -31,13 +33,17 @@ exit(100);
 }
 exit(99);
 }
-i = 0;
-i = write(fd[0], (void *)fd[1], buff);
-if (i != buff)
-{
-close(fd[0]);
-close(fd[1]);
-}
+while ((_read = read(fd[0], buff, Zbuff)) > 0)
+  {
+    _written = write(fd[1], buff, _read);
+    if (_written != _read)
+    {
+      dprintf(STDERR_FILENO, WRITE_ERROR, argv[2]);
+      close(fd[0]);
+      close(fd[1]);
+      exit(99);
+    }
+  }
 close(fd[0]);
 close(fd[1]);
 }
