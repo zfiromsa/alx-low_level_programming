@@ -30,7 +30,7 @@ int main(int argc, char **argv)
 		}
 		exit(98);
 	}
-	while (_read = read(fd_from, buffer, BUFFER) > 0)
+	while ((_read = read(fd_from, buffer, BUFFER)) > 0)
 	{
 		_write = write(fd_to, buffer, BUFFER);
 		if (_write < 0)
@@ -41,6 +41,8 @@ int main(int argc, char **argv)
 			exit(99);
 		}
 	}
+	close(fd_to);
+	close(fd_from);
 	return (0);
 }
 
