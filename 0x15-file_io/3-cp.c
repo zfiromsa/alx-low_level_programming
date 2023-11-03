@@ -30,27 +30,16 @@ int main(int argc, char **argv)
 		}
 		exit(98);
 	}
-	_read = read(fd_from, buffer, BUFFER);
-	if (_read < 0)
+	while (_read = read(fd_from, buffer, BUFFER) > 0)
 	{
-		dprintf(STDOUT_FILENO, CANT_READ, argv[1]);
-		exit(98);
-	}
-	_write = write(fd_to, buffer, BUFFER);
-	if (_write < 0)
-	{
-		dprintf(STDOUT_FILENO, CANT_WRITE, argv[2]);
-		exit(98);
-	}
-	if (close(fd_to) != 0)
-	{
-		dprintf(STDOUT_FILENO, CANT_CLOSE);
-		exit(100);
-	}
-	if (close(fd_from) != 0)
-	{
-		dprintf(STDOUT_FILENO, CANT_CLOSE);
-		exit(100);
+		_write = write(fd_to, buffer, BUFFER);
+		if (_write < 0)
+		{
+			dprintf(STDOUT_FILENO, CANT_WRITE, argv[2]);
+			close(fd_to);
+			close(fd_from);
+			exit(99);
+		}
 	}
 	return (0);
 }
