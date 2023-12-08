@@ -17,13 +17,13 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	if (count == idx)
 	{
         tmp = *h;
-        _newlist = add_dnodeint_end(_newlist, n);
+        _newlist = add_dnodeint_end((&_newlist), n);
 		while ((*h)->next)
 		{
-			_newlist = add_dnodeint_end(_newlist, (*h)->n);
+			_newlist = add_dnodeint_end((&_newlist), (*h)->n);
 			(*h) = (*h)->next;
 		}
-		_newlist = add_dnodeint_end(_newlist, (*h)->n);
+		_newlist = add_dnodeint_end((&_newlist), (*h)->n);
         return (_newlist);
     }
 	(*h) = (*h)->next;
