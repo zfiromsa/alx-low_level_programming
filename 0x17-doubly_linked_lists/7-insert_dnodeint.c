@@ -3,7 +3,7 @@
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	unsigned int count;
-    dlistint_t *tmp, *_newlist;
+    dlistint_t *_newlist;
 
 
 	_newlist = malloc(sizeof(dlistint_t));
