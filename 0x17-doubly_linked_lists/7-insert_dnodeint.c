@@ -1,37 +1,43 @@
 #include "lists.h"
-
+/**
+ * insert_dnodeint_at_index -  func that inserts a new node at a given position
+ *
+ * @idx: is the index of the list where the new node should be added.
+ * @n: value.
+ * @h: address of the node
+ * Return: NULL OR _newlist.
+ */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	unsigned int count;
-    dlistint_t *_newlist, *tmp;
+	dlistint_t *_newlist, *head;
 
 	if (idx == 0)
-        return (add_dnodeint(h, n));
-	_newlist = malloc(sizeof(dlistint_t));
-	if (_newlist == NULL)
-	{
-		return (NULL);
-	}
-	tmp = _newlist;
+		return (add_dnodeint(h, n));
+	head = (*h);
 	count = 0;
-	while (*h)
+	while (head)
 	{
-	if (count == idx)
-	{
-		tmp = add_dnodeint_end(h, n);
-		tmp = add_dnodeint_end((&tmp), (*h)->n);
-		while ((*h)->next)
+		if (count == idx - 1)
 		{
-			tmp = add_dnodeint_end((&tmp), (*h)->n);
-			(*h) = (*h)->next;
+			if (head->next == NULL)
+				return (add_dnodeint_end(h, n));
+			else
+			{
+				_newlist = malloc(sizeof(dlistint_t));
+				if (!_newlist)
+					return (NULL);
+				_newlist->n = n;
+				_newlist->prev = head;
+				_newlist->next = head->next;
+				head->next->prev = _newlist;
+				head->next = _newlist;
+				return (_newlist);
+			}
 		}
-		tmp = add_dnodeint_end((&tmp), (*h)->n);
-        return (_newlist);
-    }
-	(*h) = (*h)->next;
-	count++;
+		head = head->next;
+		count++;
 	}
-	free(_newlist);
 	return (NULL);
 }
 
