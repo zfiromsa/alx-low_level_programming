@@ -19,7 +19,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	if (count == idx)
 	{
 		tmp = add_dnodeint_end(h, n);
-		tmp = add_dnodeint_end(tmp, (*h)->n);
+		tmp = add_dnodeint_end((&tmp), (*h)->n);
 		while ((*h)->next)
 		{
 			tmp = add_dnodeint_end((&tmp), (*h)->n);
