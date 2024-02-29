@@ -5,7 +5,7 @@ SRC = main.c
 
 # Rule to build the executable.
 all:
-    (CC) -o school $(SRC)
+    $(CC) -o school $(SRC)
 
 # Clean up genereted
 clea:
